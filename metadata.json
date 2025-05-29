@@ -1,0 +1,5 @@
+{
+  "name": "Neuroengineering Exam Simulator",
+  "description": "A web application to practice for neuroengineering exams with true/false and multiple-choice questions, including scoring and review features.",
+  "requestFramePermissions": []
+}

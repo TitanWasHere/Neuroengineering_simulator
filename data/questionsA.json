@@ -1,0 +1,1032 @@
+[
+
+  {
+    "id": "A4",
+    "part": "A",
+    "text": "What effect does an inhibitory synapse typically have on the post-synaptic membrane potential?",
+    "maxScore": 1,
+    "type": "MULTIPLE_CHOICE",
+    "options": [
+      "Depolarization",
+      "Hyperpolarization",
+      "No change in potential",
+      "Action potential generation"
+    ],
+    "answer": ["Hyperpolarization"],
+    "explanation": "Hyperpolarization increases the membrane potential's negativity, moving it further from the firing threshold and making it less likely for an action potential to be generated."
+  },
+  {
+    "id": "A5",
+    "part": "A",
+    "text": "What type of probability distribution is described by the formula P[t] = r∆te(-rt), often used in models of neural activity?",
+    "maxScore": 1,
+    "type": "MULTIPLE_CHOICE",
+    "options": ["Normal", "Poisson", "Exponential", "Uniform"],
+    "answer": ["Exponential"],
+    "explanation": "The formula P[t] = r∆te(-rt) is characteristic of the probability density function for an exponential distribution, which often models the time until an event occurs in a Poisson process, such as neuronal firing."
+  },
+  {
+    "id": "A6",
+    "part": "A",
+    "text": "Is it possible to fully characterize a neuron's preferred firing direction (e.g., 90°) without comparing its firing rate to other directions (e.g., 180°)?",
+    "maxScore": 1,
+    "type": "TRUE_FALSE",
+    "options": ["True", "False"],
+    "answer": ["False"],
+    "explanation": "To determine a neuron's preferred firing direction, it is necessary to compare its firing rate across a range of directions (e.g., 90° vs. 180°) to identify the direction that elicits the maximal response."
+  },
+  {
+    "id": "A7",
+    "part": "A",
+    "text": "In performance evaluation, what percentage value is typically associated with the curve that exhibits the highest Area Under the Curve (AUC)?",
+    "maxScore": 1,
+    "type": "MULTIPLE_CHOICE",
+    "options": ["50%", "75%", "12.8%", "90%"],
+    "answer": ["12.8%"],
+    "explanation": "The value 12.8% corresponds to the curve with the highest Area Under the Curve (AUC), indicating its superior discriminative or predictive performance in the context of the original problem."
+  },
+  {
+    "id": "A8",
+    "part": "A",
+    "text": "Which of the following best explains why testing for physical influence in brain activity is more challenging than establishing temporal precedence?",
+    "maxScore": 1,
+    "type": "MULTIPLE_CHOICE",
+    "options": [
+      "Physical influence is purely theoretical, unlike temporal precedence.",
+      "Physical influence requires active intervention on brain activity to isolate effects, while temporal precedence is observational and based on statistical properties.",
+      "Temporal precedence is always indicative of physical influence, simplifying its assessment.",
+      "Testing physical influence only requires more advanced statistical models, not physical action."
+    ],
+    "answer": ["Physical influence requires active intervention on brain activity to isolate effects, while temporal precedence is observational and based on statistical properties."],
+    "explanation": "Establishing physical influence (causation) demands experimental intervention and control of confounding factors to isolate the effect of one variable on another. In contrast, temporal precedence (correlation) is an observational measure based on statistical relationships between signals over time."
+  },
+  {
+    "id": "A9",
+    "part": "A",
+    "text": "What are the main advantages and limitations of a network estimation method that incorporates all data sources into its model?",
+    "maxScore": 1,
+    "type": "MULTIPLE_CHOICE",
+    "options": [
+      "Advantages: Lower computational cost; Limitations: Less generalizable.",
+      "Advantages: Better accuracy, inclusion of all data sources; Limitations: Limited number of channels/signals, more data points required.",
+      "Advantages: Reduced data acquisition time; Limitations: Prone to overfitting.",
+      "Advantages: Simplified model interpretation; Limitations: Requires less complex algorithms."
+    ],
+    "answer": ["Advantages: Better accuracy, inclusion of all data sources; Limitations: Limited number of channels/signals, more data points required."],
+    "explanation": "This method improves network estimation accuracy and integrates diverse data sources. However, its practical application is limited by the number of channels or signals that can be processed and requires a substantial amount of data for reliable results."
+  },
+  {
+    "id": "A10",
+    "part": "A",
+    "text": "The voltage-gated Na+ channel inactivation state is responsible for the absolute refractory period.",
+    "maxScore": 0.5,
+    "type": "TRUE_FALSE",
+    "options": ["True", "False"],
+    "answer": ["True"],
+    "explanation": "During the absolute refractory period, voltage-gated Na+ channels are in an inactivated state, meaning they cannot open again regardless of the stimulus intensity, thus preventing further action potentials."
+  },
+  {
+    "id": "A11",
+    "part": "A",
+    "text": "The voltage-gated K+ channel is responsible for the repolarization phase of the action potential.",
+    "maxScore": 0.5,
+    "type": "TRUE_FALSE",
+    "options": ["True", "False"],
+    "answer": ["True"],
+    "explanation": "During repolarization, voltage-gated K+ channels open, allowing K+ ions to flow out of the cell, which restores the negative membrane potential."
+  },
+  {
+    "id": "A12",
+    "part": "A",
+    "text": "Given a spike train in output to a neuronal cell, what will the frequency of the spikes influence?",
+    "maxScore": 1,
+    "type": "MULTIPLE_CHOICE",
+    "options": [
+      "A. The spatial summation of the PSPs",
+      "B. The amplitude of the action potential produced by the post-synaptic cell",
+      "C. The temporal summation of the PSPs"
+    ],
+    "answer": ["C. The temporal summation of the PSPs"],
+    "explanation": "The frequency of incoming spikes influences temporal summation, where multiple PSPs (postsynaptic potentials) occurring in rapid succession can sum up to reach the threshold for an action potential. The amplitude of a single action potential is an 'all-or-nothing' event and does not depend on spike frequency."
+  },
+  {
+    "id": "A13",
+    "part": "A",
+    "text": "The short-term synaptic plasticity involves:",
+    "maxScore": 1,
+    "type": "MULTIPLE_CHOICE",
+    "options": [
+      "A. A structural change in the post-synaptic membrane",
+      "B. An increased number of membrane receptors",
+      "C. The amount of neurotransmitter released in the synaptic cleft",
+      "D. An irreversible change in the synaptic structure"
+    ],
+    "answer": ["C. The amount of neurotransmitter released in the synaptic cleft"],
+    "explanation": "Short-term synaptic plasticity refers to transient changes in synaptic efficacy, primarily mediated by changes in the amount of neurotransmitter released from the presynaptic terminal, such as facilitation or depression."
+  },
+  {
+    "id": "A14",
+    "part": "A",
+    "text": "Indicate which part of the brain tissue contributes more to the EEG signal:",
+    "maxScore": 1,
+    "type": "MULTIPLE_CHOICE",
+    "options": [
+      "A. The cortical sulci",
+      "B. The cortical gyri",
+      "C. The subcortical regions",
+      "D. The cerebellum"
+    ],
+    "answer": ["B. The cortical gyri"],
+    "explanation": "EEG signals primarily reflect synchronized postsynaptic potentials in pyramidal neurons. Neurons in the gyri (the ridges of the cortex) are generally oriented perpendicularly to the scalp surface, generating open electrical fields that are more easily detected by scalp electrodes compared to neurons in the sulci (grooves) or deeper brain regions."
+  },
+  {
+    "id": "A15_A",
+    "part": "A",
+    "text": "Given the provided tuning curve, if the measured firing rate is 20 Hz, can you infer the exact orientation angle that produced that response?",
+    "maxScore": 2,
+    "type": "MULTIPLE_CHOICE",
+    "options": [
+      "Yes, because 20 Hz corresponds to a single orientation angle.",
+      "No, because a firing rate of 20 Hz can result from two different orientation angles (-20° and 20°).",
+      "Yes, because the tuning curve is linear.",
+      "No, because the curve does not show firing rates below 20 Hz."
+    ],
+    "answer": ["No, because a firing rate of 20 Hz can result from two different orientation angles (-20° and 20°)."],
+    "explanation": "Looking at the tuning curve, a firing rate of 20 Hz can be achieved with an orientation angle of -20° or 20°. Therefore, the exact angle cannot be uniquely inferred from the firing rate alone."
+  },
+  {
+    "id": "A15_B",
+    "part": "A",
+    "text": "Given the provided tuning curve, is there a preferred stimulus orientation for which this neuron is designed to respond, and how can you tell?",
+    "maxScore": 2,
+    "type": "MULTIPLE_CHOICE",
+    "options": [
+      "No, because the firing rate is constant across all angles.",
+      "Yes, because the tuning curve exhibits a single maximum.",
+      "No, because the curve is symmetrical.",
+      "Yes, because the neuron responds to all angles equally."
+    ],
+    "answer": ["Yes, because the tuning curve exhibits a single maximum."],
+    "explanation": "A preferred stimulus orientation is indicated by a peak or maximum in the tuning curve. This neuron clearly shows a single maximum firing rate at a specific orientation angle, indicating its preference."
+  },
+  {
+    "id": "A16",
+    "part": "A",
+    "text": "In a Poisson spike generator, which of the following best describes the mechanism for generating spikes?",
+    "maxScore": 1,
+    "type": "MULTIPLE_CHOICE",
+    "options": [
+      "A. The program generates, at each time step, a random threshold, independent from 'r', and then compares the fixed 'r' with the variable threshold.",
+      "B. The program generates a fixed threshold and, at each time step, compares the variable 'r' with the fixed threshold.",
+      "C. The program generates, at each time step, a variable threshold dependent from 'r' and then compares the variable 'r' with the variable threshold."
+    ],
+    "answer": ["A. The program generates, at each time step, a random threshold, independent from 'r', and then compares the fixed 'r' with the variable threshold."],
+    "explanation": "In a Poisson spike generator, the firing rate 'r' is typically constant. A random threshold is generated independently at each time step. If 'r' exceeds this random threshold, a spike is generated. Higher values of 'r' lead to a higher probability of exceeding the random threshold, resulting in more spikes."
+  },
+  {
+    "id": "A17_A",
+    "part": "A",
+    "text": "Based on the given distribution of firing rates, the discriminability d' when the coherence is 12.8% is higher than when it's 3.2%.",
+    "maxScore": 0.5,
+    "type": "TRUE_FALSE",
+    "options": ["True", "False"],
+    "answer": ["True"],
+    "explanation": "The figure shows that at 12.8% coherence, the distributions for 'Preferred direction (+)' and 'Opposite direction (-)' are more separated and distinct compared to 3.2% coherence, implying higher discriminability (d')."
+  },
+  {
+    "id": "A17_B",
+    "part": "A",
+    "text": "Based on the given distribution of firing rates, higher coherence levels require lower values of the classification threshold z.",
+    "maxScore": 0.5,
+    "type": "TRUE_FALSE",
+    "options": ["True", "False"],
+    "answer": ["False"],
+    "explanation": "Higher coherence levels lead to more distinct distributions, making the task of discrimination easier. This typically means that a wider range of classification thresholds (or even a fixed optimal threshold) could be effective, and there isn't a direct requirement for lower thresholds. The optimal threshold might be placed to balance false positives and false negatives."
+  },
+  {
+    "id": "A18",
+    "part": "A",
+    "text": "What is the primary difference between anatomical and functional connectivity in the brain?",
+    "maxScore": 1,
+    "type": "MULTIPLE_CHOICE",
+    "options": [
+      "Anatomical connectivity is dynamic and reflects correlations, while functional connectivity is static and describes physical links.",
+      "Anatomical connectivity describes physical connections and is relatively constant over time, while functional connectivity reflects correlations/causation between activities and is highly variable.",
+      "Anatomical connectivity is measured by fMRI, while functional connectivity is measured by DTI.",
+      "Anatomical connectivity is a direct measure of information flow, while functional connectivity is a byproduct of neural activity."
+    ],
+    "answer": ["Anatomical connectivity describes physical connections and is relatively constant over time, while functional connectivity reflects correlations/causation between activities and is highly variable."],
+    "explanation": "Anatomical connectivity refers to the physical structural links (e.g., white matter tracts) between brain regions, which are relatively stable. Functional connectivity refers to statistical dependencies (correlations or causation) between neural activities of distinct brain regions, which can change rapidly over milliseconds."
+  },
+  {
+    "id": "A19_A",
+    "part": "A",
+    "text": "Given the Granger test between two time series x and y, is it true that Gx→y is always equal to Gy→x?",
+    "maxScore": 0.5,
+    "type": "TRUE_FALSE",
+    "options": ["True", "False"],
+    "answer": ["False"],
+    "explanation": "Granger causality is directional. Gx→y measures how much past values of x help predict y beyond past values of y itself. Gy→x measures the reverse. These two measures are generally not equal, indicating asymmetrical causal influence."
+  },
+  {
+    "id": "A19_B",
+    "part": "A",
+    "text": "Given the Granger test between two time series x and y, is it true that Gx→y ∈[0, 1]?",
+    "maxScore": 0.5,
+    "type": "TRUE_FALSE",
+    "options": ["True", "False"],
+    "answer": ["False"],
+    "explanation": "Granger causality measures are typically non-negative values, but they are not strictly bounded within the range [0, 1] in all formulations. While some normalized versions might be, the raw Granger causality F-statistic or log-likelihood ratio can be greater than 1."
+  },
+  {
+    "id": "A20",
+    "part": "A",
+    "text": "Given the depicted network, and assuming all three signals (1, 2, 3) can be measured with enough data, which approach is recommended to avoid spurious links?",
+    "maxScore": 1,
+    "type": "MULTIPLE_CHOICE",
+    "options": [
+      "A simple bivariate correlation analysis.",
+      "A univariate analysis focusing on each signal independently.",
+      "A multivariate approach (e.g., Partial Directed Coherence - PDC).",
+      "Analyzing only the strongest observed connections."
+    ],
+    "answer": ["A multivariate approach (e.g., Partial Directed Coherence - PDC)."],
+    "explanation": "In a network with multiple interacting nodes, bivariate methods can reveal spurious links due to common underlying sources or indirect pathways. A multivariate approach, like Partial Directed Coherence (PDC), accounts for the influence of all measured signals simultaneously, helping to distinguish direct from indirect connections and thus avoiding the 'hidden source problem' or spurious links."
+  },
+  {
+    "id": "A21",
+    "part": "A",
+    "text": "Are Na+, K+, Cl-, and Ca++ important ions in neurophysiology?",
+    "maxScore": 0.5,
+    "type": "TRUE_FALSE",
+    "options": ["True", "False"],
+    "answer": ["True"],
+    "explanation": "These are critical ions for neuronal electrical activity, involved in processes like action potentials and synaptic transmission."
+  },
+  {
+    "id": "A22",
+    "part": "A",
+    "text": "The amplitude and duration of an action potential are always the same (all-of-none process). The information is not in its shape, but in the temporal distance between two spikes.",
+    "maxScore": 0.5,
+    "type": "TRUE_FALSE",
+    "options": ["True", "False"],
+    "answer": ["False"],
+    "explanation": "The amplitude and duration of an action potential are always the same (all-of-none process). The information is not in its shape, but in the temporal distance between two spikes. (Note: The provided solution states 'False' for this statement, despite the statement itself containing generally accepted true biological facts about action potentials. This might indicate a nuance or a specific context not provided.)"
+  },
+  {
+    "id": "A23",
+    "part": "A",
+    "text": "Which brain region is primarily responsible for visual processing, indicated by the provided answer 'B. The occipital lobe'?",
+    "maxScore": 1,
+    "type": "MULTIPLE_CHOICE",
+    "options": ["A. Frontal Lobe", "B. Occipital Lobe", "C. Parietal Lobe", "D. Temporal Lobe"],
+    "answer": ["B. Occipital Lobe"],
+    "explanation": "The occipital lobe is primarily responsible for visual processing."
+  },
+  {
+    "id": "A24",
+    "part": "A",
+    "text": "Is it true that sensory representation in the brain is independent of how richly innervated a body region is?",
+    "maxScore": 1,
+    "type": "TRUE_FALSE",
+    "options": ["True", "False"],
+    "answer": ["False"],
+    "explanation": "The representation (e.g., in the somatosensory cortex) is proportional to how richly innervated that body region is, i.e., to the complexity and number of motor connections (e.g., the hand region is larger than the trunk region)."
+  },
+  {
+    "id": "A25",
+    "part": "A",
+    "text": "Which of the following statements best describes why cortical sources produce stronger, more focused scalp EEG signals compared to deep sources?",
+    "maxScore": 1,
+    "type": "MULTIPLE_CHOICE",
+    "options": [
+      "Cortical sources are only active during conscious states, unlike deep sources.",
+      "Cortical sources are closer to the electrodes and generate an open field due to pyramidal neurons, while deep sources are more distant and often generate a closed field.",
+      "Deep sources produce more powerful electrical signals, but they are filtered out by the skull.",
+      "Scalp EEG can only detect signals from the cerebellum, not cortical sources."
+    ],
+    "answer": ["Cortical sources are closer to the electrodes and generate an open field due to pyramidal neurons, while deep sources are more distant and often generate a closed field."],
+    "explanation": "Cortical sources produce stronger, more focused scalp EEG signals because they are closer to the electrodes and generate an open field, due to the pyramidal neurons. Deep sources produce attenuated, blurred scalp EEG signals because they are more distant from the electrodes and they often generate a closed field, due to their shape and neuronal orientation."
+  },
+  {
+    "id": "A26_A",
+    "part": "A",
+    "text": "Is it true that any stimulus closer than the fixation point will produce zero spikes?",
+    "maxScore": 0.5,
+    "type": "TRUE_FALSE",
+    "options": ["True", "False"],
+    "answer": ["False"],
+    "explanation": "This statement is generally false. The effect of a stimulus's proximity to the fixation point on neural firing depends on the neuron's receptive field and tuning properties, not universally resulting in zero spikes for closer stimuli."
+  },
+
+  {
+    "id": "A27",
+    "part": "A",
+    "text": "Why does an uncorrected Poisson generator not accurately simulate spike trains when the inter-spike interval (isi) is very low?",
+    "maxScore": 1,
+    "type": "MULTIPLE_CHOICE",
+    "options": [
+      "Because Poisson generators are only for very high firing rates.",
+      "Because an uncorrected Poisson generator does not simulate absolute and relative refractory periods, which prevent or make unlikely spikes at very short distances.",
+      "Because the data does not align with a Gaussian rule, not an exponential rule.",
+      "Because neural data is never truly random."
+    ],
+    "answer": ["Because an uncorrected Poisson generator does not simulate absolute and relative refractory periods, which prevent or make unlikely spikes at very short distances."],
+    "explanation": "When isi is very low, data do not align with the exponential rule. The reason is that the (uncorrected) Poisson generator does not simulate the absolute and relative refractory periods, which make it impossible or less probable, respectively, to have a spike at a very short distance from the previous one."
+  },
+  {
+    "id": "A30_B",
+    "part": "A",
+    "text": "Is it true that PDC_i→j is always equal to PDC_j→i?",
+    "maxScore": 0.5,
+    "type": "TRUE_FALSE",
+    "options": ["True", "False"],
+    "answer": ["False"],
+    "explanation": "PDC (Partial Directed Coherence) is a directed estimator, meaning PDC_i→j can be different from PDC_j→i. Therefore, they are not always equal."
+  },
+  {
+    "id": "A30_C",
+    "part": "A",
+    "text": "Is it true that PDC (Partial Directed Coherence) is a spectral estimator?",
+    "maxScore": 0.5,
+    "type": "TRUE_FALSE",
+    "options": ["True", "False"],
+    "answer": ["True"],
+    "explanation": "PDC (Partial Directed Coherence) is a spectral estimator, meaning it quantifies directed interactions in the frequency domain."
+  },
+  {
+    "id": "A30_D",
+    "part": "A",
+    "text": "Is it true that if a source is not included in multivariate modeling, the hidden source problem and spurious results can be avoided?",
+    "maxScore": 0.5,
+    "type": "TRUE_FALSE",
+    "options": ["True", "False"],
+    "answer": ["False"],
+    "explanation": "If a source is not included in the multivariate modeling, the problem of the hidden source can still occur and lead to spurious results because the model is incomplete."
+  },
+  {
+    "id": "A31",
+    "part": "A",
+    "text": "Which of the following describes the correct relationship between different types of noise or signal regularity in terms of their effect on BCI performance or predictability?",
+    "maxScore": 1,
+    "type": "MULTIPLE_CHOICE",
+    "options": [
+      "E_g regular < E_g real < E_g random",
+      "E_r random << E_r real < E_r regular",
+      "E_i random << E_i real < E_i regular",
+      "E_f regular < E_f real < E_f random"
+    ],
+    "answer": ["E_i random << E_i real < E_i regular"],
+    "explanation": "The relationship E₁ random << E₁ real < E₁ regular indicates a hierarchy of predictability or energy, where random signals are much less predictable than real signals, which are in turn less predictable than perfectly regular signals. (Note: The exact meaning of E₁ and the context of 'regular', 'real', 'random' signals are not explicitly defined in the provided solutions.)"
+  },
+  {
+    "id": "A33",
+    "part": "A",
+    "text": "The voltage-gated Na⁺ channel is responsible for the repolarization phase of the action potential.",
+    "maxScore": 0.5,
+    "type": "TRUE_FALSE",
+    "options": ["True", "False"],
+    "answer": ["False"],
+    "explanation": "Voltage-gated Na+ channels are responsible for the depolarization (rising phase) of the action potential, while voltage-gated K+ channels are responsible for repolarization."
+  },
+  {
+    "id": "A34",
+    "part": "A",
+    "text": "Temporal and spatial summation can occur simultaneously.",
+    "maxScore": 0.5,
+    "type": "TRUE_FALSE",
+    "options": ["True", "False"],
+    "answer": ["True"],
+    "explanation": "Both temporal and spatial summation are mechanisms by which postsynaptic potentials combine to influence the membrane potential, and they can indeed occur concurrently at different synapses or at the same synapse over time."
+  },
+  {
+    "id": "A35",
+    "part": "A",
+    "text": "The firing rate influences the amplitude of the resulting action potential in the post-synaptic cell.",
+    "maxScore": 0.5,
+    "type": "TRUE_FALSE",
+    "options": ["True", "False"],
+    "answer": ["False"],
+    "explanation": "Action potentials are 'all-or-nothing' events; their amplitude is constant once generated and is not influenced by the firing rate. The firing rate influences the *frequency* of action potentials and the *likelihood* of summation, but not the amplitude of a single action potential."
+  },
+  {
+    "id": "A36",
+    "part": "A",
+    "text": "The long-term synaptic plasticity involves a structural change in the post-synaptic membrane.",
+    "maxScore": 0.5,
+    "type": "TRUE_FALSE",
+    "options": ["True", "False"],
+    "answer": ["True"],
+    "explanation": "Long-term synaptic plasticity, such as LTP or LTD, involves persistent changes in synaptic strength, often mediated by structural changes like the insertion/removal of receptors, changes in dendritic spine morphology, or formation of new synapses."
+  },
+  {
+    "id": "A37",
+    "part": "A",
+    "text": "The brain operates at the temporal scale of milliseconds.",
+    "maxScore": 0.5,
+    "type": "TRUE_FALSE",
+    "options": ["True", "False"],
+    "answer": ["True"],
+    "explanation": "Neuronal signaling, including action potentials and synaptic transmission, occurs on the millisecond timescale, which is fundamental to brain function."
+  },
+  {
+    "id": "A38",
+    "part": "A",
+    "text": "The synchronicity of the neural activity affects the amplitude of EEG signals.",
+    "maxScore": 0.5,
+    "type": "TRUE_FALSE",
+    "options": ["True", "False"],
+    "answer": ["True"],
+    "explanation": "EEG signals are generated by the summed postsynaptic potentials of large populations of neurons. When these neurons fire synchronously, their electrical fields sum constructively, resulting in larger amplitude EEG signals."
+  },
+  {
+    "id": "A39",
+    "part": "A",
+    "text": "Scalp EEG is mainly produced by the deep (subcortical) regions.",
+    "maxScore": 0.5,
+    "type": "TRUE_FALSE",
+    "options": ["True", "False"],
+    "answer": ["False"],
+    "explanation": "Scalp EEG signals primarily originate from synchronized activity of pyramidal neurons in the superficial layers of the cerebral cortex (cortical gyri), not deep subcortical regions, due to the inverse square law of volume conduction and the orientation of cortical neurons."
+  },
+  {
+    "id": "A40",
+    "part": "A",
+    "text": "The electrical variation of the membrane potential that mainly contributes to EEG is the action potential.",
+    "maxScore": 0.5,
+    "type": "TRUE_FALSE",
+    "options": ["True", "False"],
+    "answer": ["False"],
+    "explanation": "The main contribution to EEG signals comes from the synchronized postsynaptic potentials (PSPs) of large populations of cortical neurons, not action potentials, which are too brief and spatially localized to summate effectively at the scalp."
+  },
+  {
+    "id": "A41",
+    "part": "A",
+    "text": "Based on the provided tuning curve (panel B), if the measured firing rate is 55 Hz, can you infer which movement direction produced that response?",
+    "maxScore": 0.5,
+    "type": "TRUE_FALSE",
+    "options": ["True", "False"],
+    "answer": ["True"],
+    "explanation": "Looking at panel B of the tuning curve, the firing rate of 55 Hz corresponds to a single peak, indicating a unique preferred movement direction (around 180 degrees)."
+  },
+  {
+    "id": "A42",
+    "part": "A",
+    "text": "In reference to the provided tuning curve (question 10): From the curve, can it be concluded that this neuron is tuned to be active in correspondence to a given movement direction?",
+    "maxScore": 0.5,
+    "type": "TRUE_FALSE",
+    "options": ["True", "False"],
+    "answer": ["True"],
+    "explanation": "The presence of a clear peak in the tuning curve (panel B) indicates that the neuron exhibits a preferential response to a specific movement direction, which is characteristic of a tuned neuron."
+  },
+  {
+    "id": "A43",
+    "part": "A",
+    "text": "In reference to the provided figure (question 10): Was the firing rate 'f' in panel B computed as the average of the neural response function across trials?",
+    "maxScore": 0.5,
+    "type": "TRUE_FALSE",
+    "options": ["True", "False"],
+    "answer": ["True"],
+    "explanation": "Tuning curves typically represent the average firing rate of a neuron in response to different stimulus parameters (e.g., movement direction), calculated by averaging spike counts across multiple trials for each parameter."
+  },
+  {
+    "id": "A44",
+    "part": "A",
+    "text": "In a Poisson process, when 'r' (rate parameter) increases, are higher values of 'n' (number of events) less likely?",
+    "maxScore": 0.5,
+    "type": "TRUE_FALSE",
+    "options": ["True", "False"],
+    "answer": ["False"],
+    "explanation": "In a Poisson process, 'r' is the average rate of events. When 'r' increases, the probability of observing a higher number of events ('n') in a given interval also increases, not decreases."
+  },
+  {
+    "id": "A45",
+    "part": "A",
+    "text": "In a Poisson spike generator, does the program generate a fixed threshold and, at each time step, compare a variable 'r' with the fixed threshold?",
+    "maxScore": 0.5,
+    "type": "TRUE_FALSE",
+    "options": ["True", "False"],
+    "answer": ["False"],
+    "explanation": "In a common implementation of a Poisson spike generator, the rate 'r' is typically fixed, and a random number (often interpreted as a variable threshold or an inter-spike interval) is compared against this rate to determine if a spike occurs."
+  },
+  {
+    "id": "A46",
+    "part": "A",
+    "text": "Given the ROC curves in the figure, which describe a threshold classification between two conditions at different levels of coherence, is it true that the best curve is the one closer to the diagonal?",
+    "maxScore": 0.5,
+    "type": "TRUE_FALSE",
+    "options": ["True", "False"],
+    "answer": ["False"],
+    "explanation": "In ROC analysis, the best curve is the one that is closest to the top-left corner (high true positive rate, low false positive rate), and thus *furthest* from the diagonal. The diagonal represents chance performance."
+  },
+  {
+    "id": "A47",
+    "part": "A",
+    "text": "In reference to the previous figure (question 15): Is the Area Under the Curve (AUC) for each level of coherence proportional to the discriminability of the two conditions?",
+    "maxScore": 0.5,
+    "type": "TRUE_FALSE",
+    "options": ["True", "False"],
+    "answer": ["True"],
+    "explanation": "AUC is a widely used metric for classifier performance and is directly related to the discriminability (d') of the two conditions. A higher AUC indicates better separation between the distributions of the two conditions."
+  },
+  {
+    "id": "A48",
+    "part": "A",
+    "text": "Causation is equivalent to correlation.",
+    "maxScore": 0.5,
+    "type": "TRUE_FALSE",
+    "options": ["True", "False"],
+    "answer": ["False"],
+    "explanation": "Correlation implies a relationship between two variables, but it does not imply causation. Causation means one variable directly influences another, while correlation simply means they tend to change together (e.g., due to a third confounding variable)."
+  },
+  {
+    "id": "A50",
+    "part": "A",
+    "text": "Given the Granger Index Gxy between two time series x and y, is Gxy a function of frequency?",
+    "maxScore": 0.5,
+    "type": "TRUE_FALSE",
+    "options": ["True", "False"],
+    "answer": ["False"],
+    "explanation": "While there are spectral (frequency-domain) Granger causality measures, the general 'Granger Index' (referring to the original time-domain Granger causality) is a single scalar value indicating causality, not a function of frequency."
+  },
+  {
+    "id": "A51",
+    "part": "A",
+    "text": "In a graph representing a network of brain regions, is the distance d(i,j) between two nodes proportional to the physical distance between the two regions?",
+    "maxScore": 0.5,
+    "type": "TRUE_FALSE",
+    "options": ["True", "False"],
+    "answer": ["False"],
+    "explanation": "In brain network graphs, the 'distance' or 'weight' between two nodes (regions) often represents the strength or probability of connection (e.g., fiber density, functional correlation), not necessarily their physical Euclidean distance."
+  },
+  {
+    "id": "A52",
+    "part": "A",
+    "text": "In a graph, is the index Divisibility a measure of the segregation between two communities?",
+    "maxScore": 0.5,
+    "type": "TRUE_FALSE",
+    "options": ["True", "False"],
+    "answer": ["True"],
+    "explanation": "Divisibility (often referred to as modularity) is a metric used in network analysis to quantify how well a network can be partitioned into distinct communities (modules), reflecting the segregation within the network."
+  },
+  {
+    "id": "A53",
+    "part": "A",
+    "text": "A small world network has fewer nodes than a regular network.",
+    "maxScore": 0.5,
+    "type": "TRUE_FALSE",
+    "options": ["True", "False"],
+    "answer": ["False"],
+    "explanation": "The number of nodes in a network is independent of whether it exhibits small-world properties. Small-world networks are characterized by high clustering coefficients and small average path lengths, not by their number of nodes relative to regular networks."
+  },
+  {
+    "id": "A54",
+    "part": "A",
+    "text": "The voltage-gated K+ channel inactivation state is responsible for the absolute refractory period.",
+    "maxScore": 0.5,
+    "type": "TRUE_FALSE",
+    "options": ["True", "False"],
+    "answer": ["False"],
+    "explanation": "The voltage-gated Na+ channel inactivation state is responsible for the absolute refractory period, preventing further action potentials. K+ channels are primarily involved in repolarization."
+  },
+  {
+    "id": "A55",
+    "part": "A",
+    "text": "The amplitude of spikes is the most informative parameter that can be used to characterize the output of a neuronal cell.",
+    "maxScore": 0.5,
+    "type": "TRUE_FALSE",
+    "options": ["True", "False"],
+    "answer": ["False"],
+    "explanation": "For 'all-or-nothing' action potentials, amplitude is fixed. Information is often encoded in spike timing, frequency, or temporal patterns (e.g., inter-spike intervals), not amplitude."
+  },
+  {
+    "id": "A57",
+    "part": "A",
+    "text": "Short-term synaptic plasticity involves an irreversible change in the post-synaptic membrane.",
+    "maxScore": 0.5,
+    "type": "TRUE_FALSE",
+    "options": ["True", "False"],
+    "answer": ["False"],
+    "explanation": "Short-term synaptic plasticity (e.g., facilitation, depression) involves temporary changes, typically in neurotransmitter release from the presynaptic terminal, and is reversible. Long-term plasticity involves more persistent changes."
+  },
+  {
+    "id": "A58",
+    "part": "A",
+    "text": "Electrocorticography (ECoG) has higher spatial resolution than scalp electroencephalography (EEG).",
+    "maxScore": 0.5,
+    "type": "TRUE_FALSE",
+    "options": ["True", "False"],
+    "answer": ["True"],
+    "explanation": "ECoG involves electrodes placed directly on the cortical surface, which greatly reduces signal attenuation and smearing caused by the skull and scalp, resulting in much higher spatial resolution compared to scalp EEG."
+  },
+  {
+    "id": "A59",
+    "part": "A",
+    "text": "The frontal lobe houses the primary visual function.",
+    "maxScore": 0.5,
+    "type": "TRUE_FALSE",
+    "options": ["True", "False"],
+    "answer": ["False"],
+    "explanation": "The primary visual cortex is located in the occipital lobe, not the frontal lobe."
+  },
+  {
+    "id": "A60",
+    "part": "A",
+    "text": "The distance between neuronal sources and recording electrodes affects the amplitude of the resulting EEG signals.",
+    "maxScore": 0.5,
+    "type": "TRUE_FALSE",
+    "options": ["True", "False"],
+    "answer": ["True"],
+    "explanation": "Due to volume conduction and the inverse square law, the amplitude of recorded electrical signals decreases significantly with increasing distance from the source. Deeper sources result in attenuated and blurred signals at the scalp."
+  },
+  {
+    "id": "A61",
+    "part": "A",
+    "text": "One of the main limitations of scalp EEG with respect to other measures of brain activity is its high cost.",
+    "maxScore": 0.5,
+    "type": "TRUE_FALSE",
+    "options": ["True", "False"],
+    "answer": ["False"],
+    "explanation": "Compared to neuroimaging techniques like fMRI or MEG, scalp EEG is generally considered to be a relatively low-cost method for measuring brain activity."
+  },
+  {
+    "id": "A62",
+    "part": "A",
+    "text": "The EEG signal is mainly generated by post-synaptic potentials.",
+    "maxScore": 0.5,
+    "type": "TRUE_FALSE",
+    "options": ["True", "False"],
+    "answer": ["True"],
+    "explanation": "EEG signals primarily arise from the synchronized summation of postsynaptic potentials (PSPs) of large populations of cortical pyramidal neurons. Action potentials contribute much less due to their brief duration and dipole configuration."
+  },
+  {
+    "id": "A63",
+    "part": "A",
+    "text": "Based on the provided tuning curve (panel B), the neuron responds only to positive retinal disparities (indicating it is a far-tuned neuron).",
+    "maxScore": 0.5,
+    "type": "TRUE_FALSE",
+    "options": ["True", "False"],
+    "answer": ["False"],
+    "explanation": "The tuning curve clearly shows that the neuron responds to both positive and negative retinal disparities, with a peak response at a positive disparity, indicating a preference but not exclusive response to positive disparities."
+  },
+  {
+    "id": "A64",
+    "part": "A",
+    "text": "In reference to the provided tuning curve (question 10): From the curve, can you conclude that this neuron is tuned to respond to positive s (far objects)?",
+    "maxScore": 0.5,
+    "type": "TRUE_FALSE",
+    "options": ["True", "False"],
+    "answer": ["True"],
+    "explanation": "The curve shows a peak firing rate at a positive retinal disparity, indicating that the neuron is most responsive to stimuli that are perceived as being 'farther' than the fixation point (far-tuned)."
+  },
+  {
+    "id": "A65",
+    "part": "A",
+    "text": "In reference to the provided tuning curve (question 10): Can a firing rate of 40 Hz be produced only by stimuli closer than F (where F is the fixation point)?",
+    "maxScore": 0.5,
+    "type": "TRUE_FALSE",
+    "options": ["True", "False"],
+    "answer": ["False"],
+    "explanation": "A firing rate of 40 Hz is the peak response, which corresponds to a positive disparity (far objects). Stimuli closer than F would correspond to negative disparities. The 40 Hz response is not only for stimuli closer than F."
+  },
+  {
+    "id": "A66",
+    "part": "A",
+    "text": "In a Poisson process, when the rate parameter 'r' increases, are higher values of 'n' (the number of events) more likely?",
+    "maxScore": 0.5,
+    "type": "TRUE_FALSE",
+    "options": ["True", "False"],
+    "answer": ["True"],
+    "explanation": "In a Poisson process, 'r' is the average rate of events. If 'r' increases, the average number of events increases, making it more probable to observe a higher number of events ('n') in a given time interval."
+  },
+  {
+    "id": "A67",
+    "part": "A",
+    "text": "The difference between the distribution of inter-spike intervals (isi) in real neural data and in simulated data produced by a simple Poisson generator is primarily due to the refractory periods.",
+    "maxScore": 0.5,
+    "type": "TRUE_FALSE",
+    "options": ["True", "False"],
+    "answer": ["True"],
+    "explanation": "A simple Poisson generator does not account for physiological refractory periods (absolute and relative) found in real neurons, which prevent or make unlikely spikes immediately following a previous one. This omission leads to a discrepancy in isi distributions, particularly at very short intervals."
+  },
+  {
+    "id": "A68",
+    "part": "A",
+    "text": "Based on the given firing rate distribution, is the discriminability d' higher when the coherence level is 1.6% than when it is 6.4%?",
+    "maxScore": 0.5,
+    "type": "TRUE_FALSE",
+    "options": ["True", "False"],
+    "answer": ["False"],
+    "explanation": "Higher coherence levels generally lead to better discriminability. Looking at the figure, the overlap between the 'Preferred direction (+)' and 'Opposite direction (-)' distributions is significantly less at 6.4% coherence compared to 1.6% coherence, indicating higher discriminability at 6.4%."
+  },
+  {
+    "id": "A69",
+    "part": "A",
+    "text": "In reference to the previous figure (question 15), is the distribution corresponding to 'Preferred direction (+)' more affected by the coherence level than the 'Opposite direction (-)' distribution?",
+    "maxScore": 0.5,
+    "type": "TRUE_FALSE",
+    "options": ["True", "False"],
+    "answer": ["True"],
+    "explanation": "Observing the figure, the 'Preferred direction (+)' distribution shows a clear shift and increase in firing rate with increasing coherence, while the 'Opposite direction (-)' distribution remains relatively stable and close to zero firing rate across coherence levels."
+  },
+  {
+    "id": "A70",
+    "part": "A",
+    "text": "Partial Directed Coherence (PDC) is a multivariate estimator of brain connectivity.",
+    "maxScore": 0.5,
+    "type": "TRUE_FALSE",
+    "options": ["True", "False"],
+    "answer": ["True"],
+    "explanation": "PDC is a frequency-domain measure derived from multivariate autoregressive models that estimates directed causal interactions among multiple simultaneously recorded brain signals, making it a multivariate estimator of connectivity."
+  },
+  {
+    "id": "A71",
+    "part": "A",
+    "text": "Given the Ordinary Coherence Cxy(f) between two time series x and y, is Cxy(f) ∈ [0, ∞]?",
+    "maxScore": 0.5,
+    "type": "TRUE_FALSE",
+    "options": ["True", "False"],
+    "answer": ["False"],
+    "explanation": "Ordinary Coherence Cxy(f) is a measure of linear correlation in the frequency domain, and its values are bounded between 0 and 1, inclusive (i.e., Cxy(f) ∈ [0, 1])."
+  },
+  {
+    "id": "A72",
+    "part": "A",
+    "text": "Given the Granger Index Gxy between two time series x and y, is Gxy a function of frequency?",
+    "maxScore": 0.5,
+    "type": "TRUE_FALSE",
+    "options": ["True", "False"],
+    "answer": ["False"],
+    "explanation": "The general Granger Index (time-domain Granger causality) is a single scalar value representing the overall causal influence. While there are frequency-domain Granger causality measures, the simple 'Granger Index' itself is not typically a function of frequency."
+  },
+  {
+    "id": "A73",
+    "part": "A",
+    "text": "In a graph, is the distance d(i,j) between two nodes typically given by the average length of the paths that link them?",
+    "maxScore": 0.5,
+    "type": "TRUE_FALSE",
+    "options": ["True", "False"],
+    "answer": ["False"],
+    "explanation": "The shortest path length (geodesic distance) between two nodes is a common measure of distance in a graph, not necessarily the *average* length of *all* paths. The 'average length of paths' is generally not a standard definition of distance between two specific nodes."
+  },
+  {
+    "id": "A74",
+    "part": "A",
+    "text": "In a graph, does the Global Efficiency E typically fall within the range [0, 1]?",
+    "maxScore": 0.5,
+    "type": "TRUE_FALSE",
+    "options": ["True", "False"],
+    "answer": ["True"],
+    "explanation": "Global efficiency in network analysis is a measure of the overall efficiency of information transfer in the network. It is typically normalized to a value between 0 and 1, where 1 represents a fully connected network."
+  },
+  {
+    "id": "A75",
+    "part": "A",
+    "text": "A small-world network has fewer nodes than a regular network.",
+    "maxScore": 0.5,
+    "type": "TRUE_FALSE",
+    "options": ["True", "False"],
+    "answer": ["False"],
+    "explanation": "The 'small-world' property describes a network's topology (high clustering, short path lengths) irrespective of its size (number of nodes). A small-world network can have any number of nodes, which is independent of whether it is 'small' in terms of node count compared to other network types."
+  },
+  {
+    "id": "A77",
+    "part": "A",
+    "text": "We need to measure the amplitude and duration of an action potential each time it occurs to understand the cell behavior.",
+    "maxScore": 0.5,
+    "type": "TRUE_FALSE",
+    "options": ["True", "False"],
+    "answer": ["False"],
+    "explanation": "Action potentials are 'all-or-nothing' events, meaning their amplitude and duration are largely constant for a given neuron. Information is typically encoded in their frequency and timing (e.g., inter-spike intervals), not in variations of their individual amplitude or duration."
+  },
+  {
+    "id": "A78",
+    "part": "A",
+    "text": "The firing rate of the pre-synaptic neuron influences the amplitude of the resulting action potential in the post-synaptic cell.",
+    "maxScore": 0.5,
+    "type": "TRUE_FALSE",
+    "options": ["True", "False"],
+    "answer": ["False"],
+    "explanation": "The firing rate of the presynaptic neuron influences the frequency and summation of postsynaptic potentials (PSPs), but it does not influence the amplitude of the *all-or-nothing* action potential generated in the postsynaptic cell once it reaches threshold."
+  },
+  {
+    "id": "A79",
+    "part": "A",
+    "text": "The thalamus is a cortical region.",
+    "maxScore": 0.5,
+    "type": "TRUE_FALSE",
+    "options": ["True", "False"],
+    "answer": ["False"],
+    "explanation": "The thalamus is a major subcortical structure located deep within the brain, acting as a relay station for sensory and motor signals to the cerebral cortex. It is not a cortical region itself."
+  },
+  {
+    "id": "A80",
+    "part": "A",
+    "text": "sEEG (stereoElectroencephalography) measures the activity in the same regions that are accessible by scalp electroencephalography (EEG).",
+    "maxScore": 0.5,
+    "type": "TRUE_FALSE",
+    "options": ["True", "False"],
+    "answer": ["False"],
+    "explanation": "sEEG involves invasive implantation of electrodes deep within the brain, allowing it to record activity from subcortical and deep cortical structures that are inaccessible or poorly accessible by non-invasive scalp EEG."
+  },
+  {
+    "id": "A81",
+    "part": "A",
+    "text": "The frontal lobe houses the primary motor function.",
+    "maxScore": 0.5,
+    "type": "TRUE_FALSE",
+    "options": ["True", "False"],
+    "answer": ["False"],
+    "explanation": "While the frontal lobe (specifically the primary motor cortex) is involved in motor control, the statement might be false if it implies *all* primary motor function is housed there, or it could be referring to other primary functions like visual or auditory. Given the context of previous questions, it's likely a misdirection from the visual cortex. For example, primary motor cortex is in frontal lobe but primary sensory cortex is parietal. Given the 'F' answer, it's most likely referring to a specific, unique primary function that isn't primarily located there."
+  },
+  {
+    "id": "A82",
+    "part": "A",
+    "text": "To record in vitro measures of the membrane potential over the soma of a single neural cell, you will use extracellular measures.",
+    "maxScore": 0.5,
+    "type": "TRUE_FALSE",
+    "options": ["True", "False"],
+    "answer": ["False"],
+    "explanation": "To measure the membrane potential *over the soma* (i.e., intracellularly) of a single neuron *in vitro*, intracellular recording techniques (e.g., patch clamp) are used to penetrate the cell membrane, not extracellular measures which record field potentials outside the cell."
+  },
+  {
+    "id": "A83",
+    "part": "A",
+    "text": "One of the main advantages of scalp EEG with respect to other measures of brain activity is its high temporal resolution.",
+    "maxScore": 0.5,
+    "type": "TRUE_FALSE",
+    "options": ["True", "False"],
+    "answer": ["True"],
+    "explanation": "Scalp EEG measures electrical activity directly and has excellent temporal resolution (on the order of milliseconds), which is a key advantage over techniques like fMRI that measure metabolic correlates with much slower temporal dynamics."
+  },
+  {
+    "id": "A84",
+    "part": "A",
+    "text": "The EEG signal is mainly generated by action potentials.",
+    "maxScore": 0.5,
+    "type": "TRUE_FALSE",
+    "options": ["True", "False"],
+    "answer": ["False"],
+    "explanation": "The EEG signal predominantly arises from the synchronized summation of postsynaptic potentials (PSPs) in cortical pyramidal neurons, not action potentials. Action potentials are too brief and spatially localized to contribute significantly to scalp-recorded EEG."
+  },
+  {
+    "id": "A85",
+    "part": "A",
+    "text": "Based on the provided tuning curve (question 10), is the neural response for a movement direction of 90 degrees greater than for one of 180 degrees?",
+    "maxScore": 0.5,
+    "type": "TRUE_FALSE",
+    "options": ["True", "False"],
+    "answer": ["False"],
+    "explanation": "Looking at panel B of the tuning curve, the firing rate (f) at 180 degrees is at the peak (~55 Hz), while at 90 degrees, the firing rate is significantly lower (~10 Hz). Therefore, the response at 90 degrees is not greater than at 180 degrees."
+  },
+  {
+    "id": "A86",
+    "part": "A",
+    "text": "In reference to the previous figure (question 10): If many trials are recorded for each value of 's' (panel A), will a different tuning curve be built for each of them?",
+    "maxScore": 0.5,
+    "type": "TRUE_FALSE",
+    "options": ["True", "False"],
+    "answer": ["False"],
+    "explanation": "A single tuning curve (like Panel B) is typically built by *averaging* the neural responses (firing rates) across multiple trials for *each* given stimulus parameter (e.g., retinal disparity 's'). The purpose of many trials is to obtain a more reliable estimate for *one* tuning curve, not to build separate ones."
+  },
+  {
+    "id": "A87",
+    "part": "A",
+    "text": "In reference to the previous figure (question 10): If the measured firing rate is 55Hz, can you infer by which movement direction that response was produced?",
+    "maxScore": 0.5,
+    "type": "TRUE_FALSE",
+    "options": ["True", "False"],
+    "answer": ["True"],
+    "explanation": "Looking at panel B, a firing rate of 55 Hz corresponds to the unique peak of the tuning curve, which indicates the neuron's preferred movement direction (around 180 degrees). Thus, it can be uniquely inferred."
+  },
+  {
+    "id": "A88",
+    "part": "A",
+    "text": "In a Poisson process, is the probability of an inter-spike interval (isi) of 60 ms lower than that of an isi of 20 ms?",
+    "maxScore": 0.5,
+    "type": "TRUE_FALSE",
+    "options": ["True", "False"],
+    "answer": ["True"],
+    "explanation": "In a Poisson process, inter-spike intervals follow an exponential distribution. The probability density function of an exponential distribution decreases exponentially as the interval length increases. Therefore, for a fixed rate, a longer interval (60 ms) is less probable than a shorter interval (20 ms)."
+  },
+  {
+    "id": "A89",
+    "part": "A",
+    "text": "The difference between the distribution of inter-spike intervals (isi) in real data and in simulated data produced by a Poisson generator can be reduced by adding correcting factors to the generator.",
+    "maxScore": 0.5,
+    "type": "TRUE_FALSE",
+    "options": ["True", "False"],
+    "answer": ["True"],
+    "explanation": "Simple Poisson generators do not account for biological refractory periods. Adding parameters to simulate absolute and relative refractory periods (correcting factors) to the Poisson model can significantly improve the realism of the generated isi distributions to better match real neural data."
+  },
+  {
+    "id": "A90",
+    "part": "A",
+    "text": "Based on the given ROC curves, is the discriminability d' higher when the coherence level is equal to 1.6% than when it is equal to 6.4%?",
+    "maxScore": 0.5,
+    "type": "TRUE_FALSE",
+    "options": ["True", "False"],
+    "answer": ["False"],
+    "explanation": "In ROC curves, a curve closer to the top-left corner indicates higher discriminability. The ROC curve for 6.4% coherence is visibly closer to the top-left corner than the curve for 1.6% coherence, indicating higher discriminability at 6.4%."
+  },
+  {
+    "id": "A91",
+    "part": "A",
+    "text": "In reference to the previous figure (question 15): Is the ideal ROC curve the one closer to the upper left corner?",
+    "maxScore": 0.5,
+    "type": "TRUE_FALSE",
+    "options": ["True", "False"],
+    "answer": ["True"],
+    "explanation": "An ideal ROC curve would have a True Positive Rate of 1 and a False Positive Rate of 0, which corresponds to the top-left corner of the ROC space. A curve closer to this corner indicates better classification performance."
+  },
+  {
+    "id": "A92",
+    "part": "A",
+    "text": "The Ordinary Coherence is an estimator of causality.",
+    "maxScore": 0.5,
+    "type": "TRUE_FALSE",
+    "options": ["True", "False"],
+    "answer": ["False"],
+    "explanation": "Ordinary coherence measures the linear correlation (or statistical dependence) between two signals in the frequency domain. It indicates a relationship but does not imply a directed causal influence. Causality measures like Granger causality or PDC are needed for that."
+  },
+  {
+    "id": "A93",
+    "part": "A",
+    "text": "The Partial Directed Coherence (PDC) is based on the spectral matrix S(f) obtained by means of the Wiener-Khinchin Theorem.",
+    "maxScore": 0.5,
+    "type": "TRUE_FALSE",
+    "options": ["True", "False"],
+    "answer": ["False"],
+    "explanation": "PDC is derived from the transfer function and noise covariance matrix of a multivariate autoregressive (MVAR) model of the time series. While spectral matrices are involved, stating it is 'obtained by means of the Wiener-Khinchin Theorem' in this specific context might be deemed imprecise or incorrect depending on the exact formulation and assumptions (Wiener-Khinchin relates autocorrelation to power spectral density for stationary processes)."
+  },
+  {
+    "id": "A94",
+    "part": "A",
+    "text": "The Granger Index Gxy between two time series x and y indicates the direction of the interaction between them.",
+    "maxScore": 0.5,
+    "type": "TRUE_FALSE",
+    "options": ["True", "False"],
+    "answer": ["True"],
+    "explanation": "Granger causality is a statistical concept of causality that assesses whether past values of one time series (X) help predict future values of another time series (Y) beyond what can be predicted by Y's own past values. This indeed indicates a direction of influence."
+  },
+  {
+    "id": "A95",
+    "part": "A",
+    "text": "In a graph, the distance d(i,j) between two nodes is given by the shortest path that links them.",
+    "maxScore": 0.5,
+    "type": "TRUE_FALSE",
+    "options": ["True", "False"],
+    "answer": ["True"],
+    "explanation": "In graph theory, the 'distance' or 'geodesic distance' between two nodes is conventionally defined as the length of the shortest path (minimum number of edges) connecting them."
+  },
+  {
+    "id": "A96",
+    "part": "A",
+    "text": "In a graph, given two communities C1 and C2, the Divisibility index D is directly proportional to the number of connections linking nodes belonging to different communities.",
+    "maxScore": 0.5,
+    "type": "TRUE_FALSE",
+    "options": ["True", "False"],
+    "answer": ["False"],
+    "explanation": "The Divisibility index (or modularity) aims to quantify the strength of community structure. A higher modularity indicates that communities are more segregated, meaning there are *fewer* connections between different communities relative to what would be expected by chance. So it's inversely related to (or aims to minimize) connections between communities."
+  },
+  {
+    "id": "A97",
+    "part": "A",
+    "text": "A random network has high Global Efficiency and low Local Efficiency.",
+    "maxScore": 0.5,
+    "type": "TRUE_FALSE",
+    "options": ["True", "False"],
+    "answer": ["True"],
+    "explanation": "Random networks typically have short average path lengths, leading to high global efficiency (efficient information transfer across the network). However, they have low clustering coefficients, resulting in low local efficiency (poor local interconnectedness)."
+  },
+  {
+    "id": "A98",
+    "part": "A",
+    "text": "Given the results from a neurophysiological rehabilitation study, where network density remained unchanged but global efficiency showed a small difference post-intervention, which index should be chosen to quantify the effects of rehabilitation and why?",
+    "maxScore": 1,
+    "type": "MULTIPLE_CHOICE",
+    "options": [
+      "Network Density, because it directly reflects changes in the number of active connections.",
+      "Global Efficiency, because density is unchanged and it reflects the reorganization of network communication pathways.",
+      "Both Density and Global Efficiency, as both are crucial for assessing network changes.",
+      "Neither, as the observed differences in these indices are too small to be meaningful."
+    ],
+    "answer": ["Global Efficiency, because density is unchanged and it reflects the reorganization of network communication pathways."],
+    "explanation": "As explained in the solution, density being unchanged means the number of edges was conserved. Global Efficiency, however, can reflect how efficiently information can be transferred across the network, even if the total number of connections doesn't change, due to reorganization. Thus, it's a more suitable index for quantifying the effects of rehabilitation in this scenario."
+  },
+  {
+    "id": "A99",
+    "part": "A",
+    "text": "If a study involves measuring neuroelectrical signals from both subcortical (2 regions) and cortical (4 regions) areas, which acquisition technique would be most suitable to ensure accurate signal acquisition, and what are its general pros and cons?",
+    "maxScore": 1,
+    "type": "MULTIPLE_CHOICE",
+    "options": [
+      "Scalp EEG: Pros: Non-invasive, high temporal resolution; Cons: Poor spatial resolution for deep sources, low SNR.",
+      "MEG (Magnetoencephalography): Pros: Non-invasive, good spatial resolution for cortical sources; Cons: Limited sensitivity to deep or subcortical sources, high cost.",
+      "fMRI (functional Magnetic Resonance Imaging): Pros: Good spatial resolution, covers whole brain; Cons: Indirect measure of neural activity (metabolic), poor temporal resolution, high cost.",
+      "sEEG (stereotactic Electroencephalography): Pros: High spatial resolution for deep and cortical sources, direct electrical measure; Cons: Invasive (surgical implantation), risk of complications."
+    ],
+    "answer": ["sEEG (stereotactic Electroencephalography): Pros: High spatial resolution for deep and cortical sources, direct electrical measure; Cons: Invasive (surgical implantation), risk of complications."],
+    "explanation": "As stated in the solution, given the presence of subcortical regions, invasive methods like sEEG are required for accurate acquisition of neuroelectrical signals from these deeper brain structures. Other methods like scalp EEG or MEG have limited sensitivity to deep sources, while fMRI measures metabolic activity, not direct electrical signals."
+  }
+]
