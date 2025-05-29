@@ -1,6 +1,5 @@
-# Run and deploy your AI Studio app
-
-This contains everything you need to run your app locally.
+# Neuroengineering exam simulator
+This is a web application designed to simulate exam questions for neuroengineering students at Sapienza, University of Rome. It allows users to practice and test their knowledge on various topics related to neuroengineering.
 
 ## Run Locally
 

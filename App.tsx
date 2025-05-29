@@ -4,6 +4,8 @@ import SetupScreen from './components/SetupScreen';
 import ExamScreen from './components/ExamScreen';
 import ReviewScreen from './components/ReviewScreen';
 import { ExamPhase, Question, UserAnswers, ExamConfig } from './types';
+import questionsDataA from './data/questionsA.json';
+import questionsDataB from './data/questionsB.json';
 
 // Helper to shuffle array
 const shuffleArray = <T,>(array: T[]): T[] => {
@@ -31,14 +33,17 @@ const App: React.FC = () => {
       setIsLoading(true);
       setError(null);
       try {
-        const responseA = await fetch('/data/questionsA.json');
-        if (!responseA.ok) throw new Error(`Failed to load Part A questions (status: ${responseA.status})`);
-        const dataA: Question[] = await responseA.json();
+        
+        //const responseA = await fetch('/data/questionsA.json');
+        //if (!responseA.ok) throw new Error(`Failed to load Part A questions (status: ${responseA.status})`);
+        // Type assertion to ensure imported data matches Question type
+        const dataA = questionsDataA as Question[]; 
         setAllQuestionsA(dataA);
 
-        const responseB = await fetch('/data/questionsB.json');
-        if (!responseB.ok) throw new Error(`Failed to load Part B questions (status: ${responseB.status})`);
-        const dataB: Question[] = await responseB.json();
+        //const responseB = await fetch('/data/questionsB.json');
+        //if (!responseB.ok) throw new Error(`Failed to load Part B questions (status: ${responseB.status})`);
+        //const dataB = await responseB.json() as Question[];
+        const dataB = questionsDataB as Question[]; 
         setAllQuestionsB(dataB);
 
       } catch (e: any) {
