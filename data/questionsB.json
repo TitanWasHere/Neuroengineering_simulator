@@ -2,1871 +2,1519 @@
   {
     "id": "B1",
     "part": "B",
-    "text": "Evoked Potentials are deflection of the EEG signal following the presentation of a sensory input.",
+    "text": "What is the primary difference between the mu rhythm and the alpha rhythm in terms of their origin and morphology?",
     "maxScore": 1,
-    "type": "TRUE_FALSE",
-    "options": ["True", "False"],
-    "answer": ["True"],
-    "explanation": "TRUE"
+    "type": "MULTIPLE_CHOICE",
+    "options": [
+      "Mu rhythm originates in the visual cortex, alpha in the motor cortex.",
+      "Mu rhythm is arc-shaped and from the motor cortex, alpha rhythm is from the visual cortex and not specifically arc-shaped.",
+      "Mu rhythm is a higher frequency than alpha rhythm.",
+      "Alpha rhythm is a slower frequency than mu rhythm."
+    ],
+    "answer": ["Mu rhythm is arc-shaped and from the motor cortex, alpha rhythm is from the visual cortex and not specifically arc-shaped."],
+    "explanation": "Both mu and alpha rhythms fall within the 8-13 Hz (alpha) frequency band in EEG. However, they are differentiated by their cortical origin (motor vs. visual cortex) and their distinct morphological characteristics (mu rhythm's characteristic 'arc' shape)."
   },
   {
     "id": "B2",
     "part": "B",
-    "text": "Movements of the subject's head produces artifacts only in the gamma band.",
+    "text": "The frequency of oscillation of the beta rhythm is around 10 Hz.",
     "maxScore": 1,
     "type": "TRUE_FALSE",
     "options": ["True", "False"],
     "answer": ["False"],
-    "explanation": "Movement of the subject's head may produce slow artifacts on the EEG recording, whose waveform is closely related to the timecourse of the movement"
+    "explanation": "The conventional frequency range for beta rhythm is typically 14-30 Hz. Frequencies around 10 Hz fall within the alpha rhythm range."
   },
   {
     "id": "B3",
     "part": "B",
-    "text": "Event-Related Desynchronization/ Synchronization (ERD/S) quantify the amount of coupling between signals on two EEG channels.",
+    "text": "The CMRR (Common-Mode Rejection Ratio) of an EEG amplifier should be lower than 60 dB.",
     "maxScore": 1,
     "type": "TRUE_FALSE",
     "options": ["True", "False"],
     "answer": ["False"],
-    "explanation": "ERD/S quantify changes of the power of EEG relative to a baseline period"
+    "explanation": "An instrumentation amplifier, such as those used for EEG, should have a high CMRR (Common-Mode Rejection Ratio) to effectively reject common-mode noise (e.g., power line interference). Good values for CMRR are typically 90 dB and higher, indicating superior noise rejection."
   },
   {
     "id": "B4",
     "part": "B",
-    "text": "Event-Related Desynchronization/Synchronization (ERD/S) quantify phase-locked brain activity in response to an event",
+    "text": "The International 10-20 System for EEG electrodes placement takes its name from the fact that it describes the standard position of a set of at least 10 and up to 20 electrodes.",
     "maxScore": 1,
     "type": "TRUE_FALSE",
     "options": ["True", "False"],
     "answer": ["False"],
-    "explanation": "Event-Related Desynchronization/Synchronization (ERD/S) quantify relative changes of the power of the EEG rhythm in a predefined frequency range; phase locked activity is estimated using the synchronized averaging."
+    "explanation": "The '10-20' in the system refers to the percentages (10% or 20%) of the total distance between specific craniometric landmarks that are used to establish the standard electrode positions, not the number of electrodes."
   },
   {
     "id": "B5",
     "part": "B",
-    "text": "In an ADC, quantization introduces a noise whose amplitude is proportional to the width of the quantization interval (VLSB): σquant = 1/√12 VLSB",
+    "text": "The input impedance of a biosignal amplifier must be many orders of magnitude higher than the contact impedance of the electrodes.",
     "maxScore": 1,
     "type": "TRUE_FALSE",
     "options": ["True", "False"],
     "answer": ["True"],
-    "explanation": "TRUE"
+    "explanation": "To accurately measure small biological potentials without drawing significant current from the source (which would attenuate the signal), the amplifier's input impedance must be much higher than the electrode-skin contact impedance. This ensures minimal voltage drop across the contact impedance and maximum voltage transfer to the amplifier."
   },
   {
     "id": "B6",
     "part": "B",
-    "text": "The powerline noise affects a very narrow frequency band of the recorded signal around 50 Hz (in Europe) and odd multiples of (150 Hz, 250 Hz, ...).",
+    "text": "An eyeblink produces an artifact which often interferes with the analysis of the beta band of the EEG.",
     "maxScore": 1,
     "type": "TRUE_FALSE",
     "options": ["True", "False"],
-    "answer": ["True"],
-    "explanation": "TRUE"
+    "answer": ["False"],
+    "explanation": "Eyeblink artifacts (EOG) are typically slow, high-amplitude waves with a spectral content well below 10 Hz (e.g., delta and theta bands). Therefore, they primarily interfere with lower EEG frequency bands and generally do not significantly affect the higher-frequency beta band (14-30 Hz)."
   },
   {
     "id": "B7",
     "part": "B",
-    "text": "The frequency spectrum of white noise is flat, i.e. it has the same power at any frequency.",
+    "text": "The eye is more positive in its frontal part than its posterior part, and thus its movements can generate large artifacts on the EEG.",
     "maxScore": 1,
     "type": "TRUE_FALSE",
     "options": ["True", "False"],
     "answer": ["True"],
-    "explanation": "TRUE"
+    "explanation": "Due to the corneo-retinal potential, the cornea (front of the eye) is positively charged relative to the retina (back of the eye). Eye movements cause shifts in this electrical dipole, which are picked up by scalp electrodes as large electrooculogram (EOG) artifacts in EEG recordings, especially in frontal regions."
   },
   {
     "id": "B8",
     "part": "B",
-    "text": "A FIR filter needs to be of a higher order to achieve the same quality specifications than a IIR filter.",
+    "text": "EMG (Electromyogram) artifacts on an EEG recording mainly affect the alpha band and specifically the mu rhythm.",
     "maxScore": 1,
     "type": "TRUE_FALSE",
     "options": ["True", "False"],
-    "answer": ["True"],
-    "explanation": "TRUE"
+    "answer": ["False"],
+    "explanation": "EMG artifacts, arising from muscle activity, typically have a spectral content starting from approximately 20 Hz and extending into higher frequencies. Consequently, they primarily interfere with the beta (14-30 Hz) and gamma (30+ Hz) bands of the EEG, rather than the alpha band (8-13 Hz) or mu rhythm."
   },
   {
     "id": "B9",
     "part": "B",
-    "text": "The contact impedances of a pair of electrodes should be large compared to the input impedance of the differential amplifier connected to them, otherwise the amplitude of the signal would be reduced as effect of the potential divider.",
+    "text": "EMG (Electromyogram) artifacts can easily appear on EEG recordings unless subjects are specifically instructed by the experimenter on how to relax their face muscles.",
     "maxScore": 1,
     "type": "TRUE_FALSE",
     "options": ["True", "False"],
-    "answer": ["False"],
-    "explanation": "False, the contact impedances must be lower than the amplifier's input impedance, mainly to help keeping the circuit balanced (higher CMRR)"
+    "answer": ["True"],
+    "explanation": "Even subtle muscle contractions, particularly from facial muscles located close to EEG electrodes, can generate significant electrical potentials (EMG) that contaminate EEG signals. Therefore, instructing subjects to relax their muscles is a crucial step in EEG data acquisition to minimize these artifacts."
   },
   {
     "id": "B10",
     "part": "B",
-    "text": "Aliasing occurs when an artifact corrupts an otherwise healthy EEG recording.",
+    "text": "The potential at the peak of the Event-Related Potential (ERP) component P20 is lower than the potential at the peak of the N100 component.",
     "maxScore": 1,
     "type": "TRUE_FALSE",
     "options": ["True", "False"],
     "answer": ["False"],
-    "explanation": "Aliasing occurs when the sampling frequency of an analog signal is lower than twice the frequency of any spectral component of the signal"
+    "explanation": "In ERP nomenclature, 'P' indicates a positive-going deflection and 'N' indicates a negative-going deflection. Thus, P20 refers to a positive peak occurring around 20 ms, while N100 refers to a negative peak around 100 ms. A positive potential is inherently higher than a negative potential, so P20's peak potential is higher than N100's."
   },
   {
     "id": "B11",
     "part": "B",
-    "text": "The CMRR of a bipolar amplifier measures how much higher is the gain of the potential difference between the input electrodes with respect to the gain of their average with respect to the electrical ground.",
+    "text": "The estimation of Event-Related Potentials (ERPs) requires the acquisition of numerous repetitions of the stimulus or event which evoked or induced the potential.",
     "maxScore": 1,
     "type": "TRUE_FALSE",
     "options": ["True", "False"],
     "answer": ["True"],
-    "explanation": "TRUE"
+    "explanation": "ERPs are typically small in amplitude and embedded within much larger ongoing EEG activity (noise). Averaging responses over many repetitions of a stimulus or event allows the random background EEG to cancel out, revealing the consistent, time-locked ERP component."
   },
   {
     "id": "B12",
     "part": "B",
-    "text": "A 'run' is a portion of recording in an experimental protocol that contains no breaks, i.e. all samples contained therein have been acquired 1/fs seconds after the previous (fs being the sampling frequency)",
+    "text": "Event-Related Desynchronization/Synchronization (ERD/S) quantify the amount of coupling between signals on two EEG channels.",
     "maxScore": 1,
     "type": "TRUE_FALSE",
     "options": ["True", "False"],
-    "answer": ["True"],
-    "explanation": "TRUE"
+    "answer": ["False"],
+    "explanation": "ERD/S refer to relative changes (decrease or increase) in power within a specific EEG frequency band following an event, compared to a baseline period. They measure power modulation within a channel, not the functional coupling or coherence between different EEG channels."
   },
   {
     "id": "B13",
     "part": "B",
-    "text": "EEG signals recorded in monopolar configuration can be re-referenced to the Common Average Reference (CAR), by subtracting from each channel the instantaneous average of all channels. In ideal conditions, this would approximate taking the reference potential at infinity.",
+    "text": "In Analog to Digital Conversion, the Nyquist frequency equals half of the sampling frequency.",
     "maxScore": 1,
     "type": "TRUE_FALSE",
     "options": ["True", "False"],
     "answer": ["True"],
-    "explanation": "TRUE"
+    "explanation": "According to the Nyquist-Shannon sampling theorem, to perfectly reconstruct a signal from its sampled version, the sampling frequency (fs) must be at least twice the highest frequency component present in the signal. The Nyquist frequency, or Nyquist limit, is half of the sampling frequency (fs/2), representing the maximum frequency that can be unambiguously captured."
   },
   {
     "id": "B14",
     "part": "B",
-    "text": "The Shannon's theorem states that a continuous signal can be properly sampled only if it does not contain frequency components above the sampling rate.",
+    "text": "Aliasing can be prevented by applying a digital low-pass filter with a cutoff frequency lower than the Nyquist frequency.",
     "maxScore": 1,
     "type": "TRUE_FALSE",
     "options": ["True", "False"],
     "answer": ["False"],
-    "explanation": "The signal must not contain spectral components above half the sampling rate (Nyquist frequency)"
+    "explanation": "Aliasing occurs during analog-to-digital conversion when frequencies above the Nyquist frequency are misrepresented as lower frequencies. To prevent aliasing, an analog anti-aliasing filter must be applied to the signal *before* digitization. Digital filters are applied *after* the signal has been sampled, and thus cannot remove aliasing that has already occurred."
   },
   {
     "id": "B15",
     "part": "B",
-    "text": "The N20 component of an EP occurs before the stimulus (negative latency) while the P300 occurs after the stimulus (positive latency).",
+    "text": "The RMS (Root Mean Square) is the square root of the average of the squared value of the samples of a signal.",
     "maxScore": 1,
     "type": "TRUE_FALSE",
     "options": ["True", "False"],
-    "answer": ["False"],
-    "explanation": "'N' and 'P' indicate the sign of the amplitude of the ERP (Negative and Positive, respectively), not the latency."
+    "answer": ["True"],
+    "explanation": "The RMS value is a statistical measure of the magnitude of a varying quantity. It is calculated by taking the square root of the mean (average) of the squares of the individual values in a dataset."
   },
   {
     "id": "B16",
     "part": "B",
-    "text": "The RMS and the ARV of a zero-mean signal have the same value (assume that the number of samples N → ∞).",
+    "text": "The frequency spectrum of a gaussian noise is flat, i.e., it has the same power at any frequency.",
     "maxScore": 1,
     "type": "TRUE_FALSE",
     "options": ["True", "False"],
     "answer": ["False"],
-    "explanation": "For a zero-mean signal, the RMS equals the standard deviation σ of a zero-mean signal."
+    "explanation": "Gaussian noise refers to the amplitude distribution of the noise, meaning its samples follow a normal (Gaussian) probability distribution. A noise whose frequency spectrum is flat (equal power at all frequencies) is called white noise. While white noise can have a Gaussian amplitude distribution, 'Gaussian noise' itself does not necessarily imply a flat spectrum; it's a property of the amplitude, not the frequency content."
   },
   {
     "id": "B17",
     "part": "B",
-    "text": "In ERP analysis, ‘trials' are portions of the continuous EEG recording that start exactly at the time when a sensory stimulus was delivered",
+    "text": "The probability distribution of the average of N independent and identically distributed random variables is a normal distribution independently of the value of N.",
     "maxScore": 1,
     "type": "TRUE_FALSE",
     "options": ["True", "False"],
-    "answer": ["False"],
-    "explanation": "The start of a trial usually precedes the time of the event, so that a pre-stimulus baseline period can be analyzed. Events are not necessarily sensory stimulations."
+    "answer": ["True"],
+    "explanation": "This statement broadly relates to the Central Limit Theorem (CLT). The CLT states that the distribution of sample means (averages of N independent and identically distributed random variables) approaches a normal distribution as N increases, regardless of the original population's distribution (provided it has a finite mean and variance). While strictly, it *approaches* normality for large N, and is only exactly normal for any N if the original distribution is normal, for many practical purposes, it's considered approximately normal for sufficiently large N."
   },
   {
     "id": "B18",
     "part": "B",
-    "text": "The mu rhythm and the alpha rhythm are EEG components that differ for their fundamental frequency of oscillation",
+    "text": "The higher the sampling frequency of a digital signal, the higher is the frequency resolution of its spectrum.",
     "maxScore": 1,
     "type": "TRUE_FALSE",
     "options": ["True", "False"],
     "answer": ["False"],
-    "explanation": "They both oscillate around 10 Hz."
+    "explanation": "The frequency resolution (Δf) of a spectrum obtained via Fourier Transform is determined by the total duration (T) of the signal (Δf = 1/T). A higher sampling frequency (fs) increases the maximum observable frequency (Nyquist frequency = fs/2), thus extending the frequency *range*, but it does not improve the frequency *resolution* (the ability to distinguish between closely spaced frequencies). To improve resolution, one needs a longer signal recording."
   },
   {
     "id": "B19",
     "part": "B",
-    "text": "ARVx = √(1/N) Σ(x[i])², where the sum extends on the N samples of the signal x[i]",
+    "text": "The spectral leakage phenomenon is observed, for instance, when comparing the spectrum of a signal with the spectrum of a short section of the same signal.",
     "maxScore": 1,
     "type": "TRUE_FALSE",
     "options": ["True", "False"],
-    "answer": ["False"],
-    "explanation": "ARVx = (1/N) Σ|x[i]|, ARV being the acronym of Average Rectified Value"
+    "answer": ["True"],
+    "explanation": "Spectral leakage occurs when the finite-length segment of a signal analyzed by a Fourier Transform is not an integer number of its periods. This truncation creates discontinuities at the window boundaries, causing energy from a specific frequency to 'leak' into adjacent frequency bins, resulting in a smeared or less accurate spectral representation compared to the full signal's spectrum."
   },
   {
     "id": "B20",
     "part": "B",
-    "text": "In a P300-based BCI, the user subjectively assigns saliency (relevance) to a stimulus so that their brain produces a P300 ERP every time the stimulus is administered",
+    "text": "For a signal sampled with a sampling interval ΔTs = 0.005s, what is the frequency range of its spectrum?",
     "maxScore": 1,
-    "type": "TRUE_FALSE",
-    "options": ["True", "False"],
-    "answer": ["True"],
-    "explanation": "TRUE"
+    "type": "MULTIPLE_CHOICE",
+    "options": ["A. 200 Hz", "B. 100 Hz", "C. 0.005 kHz", "D. 50 Hz"],
+    "answer": ["A. 200 Hz"],
+    "explanation": "The sampling frequency (fs) is the inverse of the sampling interval (ΔTs): fs = 1/ΔTs. Given ΔTs = 0.005s, the sampling frequency is fs = 1/0.005s = 200 Hz. In a discrete spectrum, the total frequency range spans up to the sampling frequency, although unique information is typically represented up to the Nyquist frequency (fs/2), which would be 100 Hz in this case. Given the options, 200 Hz represents the sampling frequency itself, which defines the upper limit of the spectrum."
   },
   {
     "id": "B21",
     "part": "B",
-    "text": "An EEG recording is said to be bipolar when it comprises exactly two channels",
-    "maxScore": 1,
+    "text": "The beta band identifies frequencies lower than the alpha band.",
+    "maxScore": 0.5,
     "type": "TRUE_FALSE",
     "options": ["True", "False"],
     "answer": ["False"],
-    "explanation": "In bipolar EEG recordings, each channel is the difference of potential between two (adjacent) electrodes. The number of channels is not relevant"
+    "explanation": "The conventional frequency band of the beta band starts at 14 Hz, which is above the alpha band (typically 8-13 Hz)."
   },
   {
     "id": "B22",
     "part": "B",
-    "text": "The roll-off of a filter is the slope of its frequency response in the transition band. It is high when the transition band is narrow.",
-    "maxScore": 1,
+    "text": "The CMRR (Common-Mode Rejection Ratio) is usually expressed in decibel (dB), and high values characterize better amplifiers.",
+    "maxScore": 0.5,
     "type": "TRUE_FALSE",
     "options": ["True", "False"],
     "answer": ["True"],
-    "explanation": "TRUE"
+    "explanation": "CMRR quantifies an amplifier's ability to reject common-mode signals (noise). A higher CMRR in dB means the amplifier is more effective at suppressing unwanted common-mode interference, leading to a cleaner signal."
   },
   {
     "id": "B23",
     "part": "B",
-    "text": "The Short Time Fourier Transform (STFT) is a simple method to estimate a spectrogram, i.e. the representation of the time-varying spectrum of a non-stationary signal.",
-    "maxScore": 1,
+    "text": "Ensuring a contact impedance below 5 kΩ is not relevant when the input impedance of the EEG amplifier is below 50 kΩ.",
+    "maxScore": 0.5,
     "type": "TRUE_FALSE",
     "options": ["True", "False"],
-    "answer": ["True"],
-    "explanation": "TRUE"
+    "answer": ["False"],
+    "explanation": "For optimal signal transfer and minimal distortion, the input impedance of the amplifier should be significantly higher (typically at least 100 times) than the electrode-skin contact impedance. If the amplifier's input impedance is only 50 kΩ, then a 5 kΩ contact impedance is still relevant and could lead to signal attenuation."
   },
   {
     "id": "B24",
     "part": "B",
-    "text": "The amplitude of an ERP is measured with respect to its value at the time of the event.",
-    "maxScore": 1,
+    "text": "An artifact is a potential difference due to sources outside the brain.",
+    "maxScore": 0.5,
     "type": "TRUE_FALSE",
     "options": ["True", "False"],
-    "answer": ["False"],
-    "explanation": "The amplitude of ERPs is measured with respect to a baseline epoch (usually preceding the stimulus), in which the amplitude is assumed to be zero."
+    "answer": ["True"],
+    "explanation": "Artifacts in EEG are unwanted signals that originate from non-cerebral sources, such as muscle activity (EMG), eye movements (EOG), heart activity (ECG), or external electrical interference."
   },
   {
     "id": "B25",
     "part": "B",
-    "text": "The alpha rhythm can be observed by filtering the spontaneous EEG signal using a narrowband filter, with cutoff frequencies at 14 and 30 Hz (approximately)",
-    "maxScore": 1,
+    "text": "Digital processing can remove all significant artifacts, and thus it is not worth using measurement time to reduce their presence on the raw recording.",
+    "maxScore": 0.5,
     "type": "TRUE_FALSE",
-    "options": ["True", "False"],
     "answer": ["False"],
-    "explanation": "With these cutoff frequencies we would observe the beta rhythm"
+    "explanation": "While digital processing can attenuate artifacts, it cannot perfectly remove all of them, especially if they are large or overlap with brain signals. It is always preferable to minimize artifacts during acquisition through proper experimental design and subject instructions, as off-line processing can sometimes distort the underlying brain activity or introduce new artifacts."
   },
   {
     "id": "B26",
     "part": "B",
-    "text": "The heart activity is likely to contaminate an EEG recording if the reference electrode is not placed on the head.",
-    "maxScore": 1,
+    "text": "A sudden movement of the eyes to the left generates a negative deflection of EEG potentials on the EEG channel F8.",
+    "maxScore": 0.5,
     "type": "TRUE_FALSE",
     "options": ["True", "False"],
     "answer": ["True"],
-    "explanation": "TRUE"
+    "explanation": "Due to the corneo-retinal potential, the cornea is positive relative to the retina. When eyes move to the left, the positive cornea moves towards left-sided electrodes (e.g., F7, F8), causing a positive deflection on the left and a negative deflection on the right (F8), relative to a central reference."
   },
   {
     "id": "B27",
     "part": "B",
-    "text": "Evoked potential is synonymous of Event-Related Potentials",
-    "maxScore": 1,
+    "text": "When recording EPs (Evoked Potentials), the spontaneous EEG is to be considered a noise that completely masks the EPs on the recorded waveform.",
+    "maxScore": 0.5,
     "type": "TRUE_FALSE",
     "options": ["True", "False"],
-    "answer": ["False"],
-    "explanation": "Event related potentials include evoke potentials, as well as EEG responses to motor or cognitive events."
+    "answer": ["True"],
+    "explanation": "Spontaneous EEG activity is significantly larger in amplitude than evoked potentials. Therefore, to reliably detect EPs, which are time-locked to a stimulus, averaging across many trials is necessary to average out the random, spontaneous EEG noise."
   },
   {
     "id": "B28",
     "part": "B",
-    "text": "In an ERP, the response to a stimulus has a reduced amplitude when the SOA is too short.",
-    "maxScore": 1,
+    "text": "The amplitude of an ERP (Event-Related Potential) is measured with respect to its value at the time of the event.",
+    "maxScore": 0.5,
     "type": "TRUE_FALSE",
     "options": ["True", "False"],
-    "answer": ["True"],
-    "explanation": "TRUE"
+    "answer": ["False"],
+    "explanation": "ERP amplitudes are typically measured relative to a baseline period, which is usually a short interval (e.g., 100-200 ms) preceding the stimulus onset where no brain response is expected. This baseline provides a reference point for measuring post-stimulus deflections."
   },
   {
     "id": "B29",
     "part": "B",
-    "text": "In an ADC, quantization introduces a noise whose amplitude is proportional to the number L of discrete amplitude levels: σquant = 1/L = 1/√12 VLSB",
-    "maxScore": 1,
+    "text": "Evoked brain activity is phase-locked to the stimulus to which it is a response.",
+    "maxScore": 0.5,
     "type": "TRUE_FALSE",
     "options": ["True", "False"],
-    "answer": ["False"],
-    "explanation": "The quantization noise amplitude is proportional to the width of the quantization interval (VLSB): σquant = 1/√12 VLSB"
+    "answer": ["True"],
+    "explanation": "Evoked activity refers to neural responses that are consistently time-locked and often phase-locked to the presentation of a specific sensory or cognitive stimulus, allowing them to be extracted by averaging."
   },
   {
     "id": "B30",
     "part": "B",
-    "text": "The artifact generated by eye movements can reach amplitudes up to 5µV in the EEG recordings",
-    "maxScore": 1,
+    "text": "The alpha rhythm is said to be synchronized when the amplitude of its oscillations increase.",
+    "maxScore": 0.5,
     "type": "TRUE_FALSE",
     "options": ["True", "False"],
-    "answer": ["False"],
-    "explanation": "EOG artifacts can be two orders of magnitude higher than that."
+    "answer": ["True"],
+    "explanation": "Synchronization in EEG, particularly in the alpha band, refers to an increase in the amplitude and regularity of oscillations. This is often observed, for example, when a person closes their eyes and relaxes."
   },
   {
     "id": "B31",
     "part": "B",
-    "text": "The synchronized average of N trials containing only spontaneous EEG whose variance {var}{trial}=σ^2 is a signal whose variance {var}{avg}=σ^2/N",
-    "maxScore": 1,
+    "text": "The Shannon's theorem states that a continuous signal can be properly sampled only if it does not contain frequency components above the sampling rate.",
+    "maxScore": 0.5,
     "type": "TRUE_FALSE",
     "options": ["True", "False"],
-    "answer": ["True"],
-    "explanation": "TRUE"
+    "answer": ["False"],
+    "explanation": "Shannon's Nyquist-Shannon sampling theorem states that a continuous signal can be perfectly reconstructed from its samples if the sampling rate is at least twice the highest frequency component of the signal (i.e., no frequency components above the Nyquist frequency, which is half the sampling rate)."
   },
   {
     "id": "B32",
     "part": "B",
-    "text": "The frequency response of a filter in the stopband should be plotted in a graph whose vertical axis has a logarithmic scale (i.e. the gain is expressed in dB).",
-    "maxScore": 1,
+    "text": "Aliasing occurs when an analog signal is sampled outside the conditions set by the Shannon's theorem.",
+    "maxScore": 0.5,
     "type": "TRUE_FALSE",
     "options": ["True", "False"],
     "answer": ["True"],
-    "explanation": "TRUE"
+    "explanation": "Aliasing is the distortion that occurs when a signal is sampled at a rate lower than twice its highest frequency component (i.e., violating the Nyquist-Shannon sampling theorem). This causes higher frequencies to be misinterpreted as lower frequencies."
   },
   {
     "id": "B33",
     "part": "B",
-    "text": "The CMRR of a bipolar amplifier measures the ratio between the gain of their average with respect to the electrical ground and the gain of the potential difference between the input electrodes.",
-    "maxScore": 1,
+    "text": "An experimenter can reduce the chance of signal clipping by choosing a DAC with a lower number of bits.",
+    "maxScore": 0.5,
     "type": "TRUE_FALSE",
     "options": ["True", "False"],
     "answer": ["False"],
-    "explanation": "Numerator and denominator are swapped"
+    "explanation": "Clipping occurs when the signal amplitude exceeds the ADC's input range. To reduce clipping, one should choose a DAC/ADC with a *higher* number of bits (which increases the number of quantization levels and/or allows for a wider input range), or adjust the input gain."
   },
   {
     "id": "B34",
     "part": "B",
-    "text": "Aliasing occurs when an analog signal is sampled using a limited input range of the ADC.",
-    "maxScore": 1,
+    "text": "The RMS (Root Mean Square) and the ARV (Average Rectified Value) of a zero-mean signal have the same value when the number of samples N approaches infinity.",
+    "maxScore": 0.5,
     "type": "TRUE_FALSE",
     "options": ["True", "False"],
     "answer": ["False"],
-    "explanation": "Aliasing occurs when an analog signal is sampled outside the conditions set by the Shannon's theorem. Clipping (saturation) occurs when the input range of the ADC is smaller than the amplitude of the input analog signal."
+    "explanation": "The RMS equals the standard deviation (σ) of a zero-mean signal (for a large number of samples). The ARV, on the other hand, is the average of the absolute values of the samples. These two measures are generally not equal, even for an infinite number of samples; for instance, for a sine wave, RMS = A/√2 while ARV = 2A/π, which are different."
   },
   {
     "id": "B35",
     "part": "B",
-    "text": "Despite being more expensive, gold electrodes should be preferred to Ag/AgCl electrodes since they allow recording of extremely slow-changing EEG potentials.",
-    "maxScore": 1,
+    "text": "In a Gaussian noise, the probability density that a sample has a given amplitude value follows the normal distribution with zero mean.",
+    "maxScore": 0.5,
     "type": "TRUE_FALSE",
     "options": ["True", "False"],
-    "answer": ["False"],
-    "explanation": "Gold electrodes are polarizable, thus the opposite is true"
+    "answer": ["True"],
+    "explanation": "By definition, Gaussian noise is random noise whose amplitude probability distribution follows a Gaussian (normal) distribution. Often, it is assumed to have a zero mean."
   },
   {
     "id": "B36",
     "part": "B",
-    "text": "EEG electrodes whose first letter of the label is \"C\" (e.g. \"Cz\") are located on the central region of the head, i.e. the region between the left and the right hemisphere",
-    "maxScore": 1,
+    "text": "Windowing the signal with a Blackman-Harris window reduces the spectral leakage effect because it reduces the width of the main lobe of the spectrum.",
+    "maxScore": 0.5,
     "type": "TRUE_FALSE",
-    "options": ["True", "False"],
     "answer": ["False"],
-    "explanation": "The central region is above the central sulcus which divides the frontal and parietal lobes. The mesial region is above the interhemispheric scissure, and it is designated by a trailing \"z\" in EEG labels"
+    "explanation": "Tapered windows like Blackman-Harris *do* reduce spectral leakage by suppressing side-lobes, but they do so at the cost of *increasing* the width of the main lobe (reducing frequency resolution). The benefit is less interference from neighboring frequency components."
   },
   {
     "id": "B37",
     "part": "B",
-    "text": "The measurement of two monopolar EEG channels requires four electrodes – two collecting the potentials fed to the non-inverting input of the differential amplifier, one providing the reference potential and one providing the ground potential.",
-    "maxScore": 1,
+    "text": "Filters are categorized into four types depending on the basic shape of their frequency response: (i) low-pass; (ii) high-pass; (iii) low-stop; (iv) high-stop.",
+    "maxScore": 0.5,
     "type": "TRUE_FALSE",
     "options": ["True", "False"],
-    "answer": ["True"],
-    "explanation": "TRUE"
+    "answer": ["False"],
+    "explanation": "Common filter types based on frequency response include low-pass, high-pass, band-pass, and band-stop (or notch) filters. 'Low-stop' and 'high-stop' are not standard primary categories in this context; 'band-stop' would cover frequencies that are stopped."
   },
   {
     "id": "B38",
     "part": "B",
-    "text": "In analog-to-digital conversion, each spectral component of the analog signal should have frequency below the Nyquist frequency",
-    "maxScore": 1,
-    "type": "TRUE_FALSE",
-    "options": ["True", "False"],
-    "answer": ["True"],
-    "explanation": "TRUE"
+    "text": "Order the following EEG rhythms by ascending frequency of oscillations:",
+    "maxScore": 0.5,
+    "type": "MULTIPLE_CHOICE",
+    "options": [
+      "A. Alpha, E. Theta, C. Delta, B. Beta, D. Gamma",
+      "C. Delta, E. Theta, A. Alpha, B. Beta, D. Gamma",
+      "D. Gamma, B. Beta, A. Alpha, E. Theta, C. Delta",
+      "C. Delta, E. Theta, A. Alpha, D. Gamma, B. Beta"
+    ],
+    "answer": ["C. Delta, E. Theta, A. Alpha, B. Beta, D. Gamma"],
+    "explanation": "The standard EEG frequency bands in ascending order are: Delta (0.5-4 Hz), Theta (4-8 Hz), Alpha (8-13 Hz), Beta (14-30 Hz), Gamma (30+ Hz)."
   },
   {
     "id": "B39",
     "part": "B",
-    "text": "In ERP analysis, the EEG continuous recording must be segmented into epochs (trials) of fixed duration, each aligned to a repetition of the event",
+    "text": "What are the main differences between gold (Au) and Ag/AgCl electrodes in neurophysiological recordings?",
     "maxScore": 1,
-    "type": "TRUE_FALSE",
-    "options": ["True", "False"],
-    "answer": ["True"],
-    "explanation": "TRUE"
+    "type": "MULTIPLE_CHOICE",
+    "options": [
+      "Ag/AgCl electrodes are polarizable and suited for fast potentials, while Au electrodes are non-polarizable and suited for slow potentials.",
+      "Gold electrodes are non-polarizable and ideal for slow potentials, while Ag/AgCl electrodes are perfectly polarizable and suitable for fast potentials.",
+      "Ag/AgCl electrodes are non-polarizable (allow free charge flow) and suitable for slow/DC potentials, whereas Au electrodes are polarizable (form a double layer) and only suitable for fast-changing potentials.",
+      "Both electrode types are equally polarizable and can be used interchangeably for all types of potentials."
+    ],
+    "answer": ["Ag/AgCl electrodes are non-polarizable (allow free charge flow) and suitable for slow/DC potentials, whereas Au electrodes are polarizable (form a double layer) and only suitable for fast-changing potentials."],
+    "explanation": "Ag/AgCl electrodes are non-polarizable, meaning they allow for free ionic-to-electronic charge transfer across the electrode-electrolyte interface, making them suitable for recording slow or DC potentials without significant drift. Gold electrodes, on the other hand, are perfectly polarizable, forming a double layer at the interface, which acts like a capacitor and makes them unsuitable for slow potentials but acceptable for fast-changing potentials."
   },
   {
     "id": "B40",
     "part": "B",
-    "text": "The Central Limit Theorem (CLT) states that the average of N zero-mean independent identically distributed signals approaches zero for N → ∞.",
+    "text": "Given 100 independent and identically distributed random variables, each with a variance equal to 4, what is the variance of their average?",
     "maxScore": 1,
-    "type": "TRUE_FALSE",
-    "options": ["True", "False"],
-    "answer": ["True"],
-    "explanation": "TRUE"
+    "type": "MULTIPLE_CHOICE",
+    "options": [
+      "4",
+      "0.04",
+      "400",
+      "0.4"
+    ],
+    "answer": ["0.04"],
+    "explanation": "The variance of the average of N independent and identically distributed random variables is given by σ_avg² = σ²/N, where σ² is the variance of individual variables and N is the number of variables. Here, σ² = 4 and N = 100. So, σ_avg² = 4/100 = 0.04."
   },
   {
     "id": "B41",
     "part": "B",
-    "text": "As a preliminary step to EEG data analysis, one or more channels can be removed from the dataset if they are extensively contaminated by artifacts",
-    "maxScore": 1,
+    "text": "The frequency of oscillation of the beta rhythm is around 10 Hz.",
+    "maxScore": 0.5,
     "type": "TRUE_FALSE",
     "options": ["True", "False"],
-    "answer": ["True"],
-    "explanation": "TRUE"
+    "answer": ["False"],
+    "explanation": "The minimum conventional oscillation frequency of the beta rhythm is 14 Hz, which is above the alpha band."
   },
   {
     "id": "B42",
     "part": "B",
-    "text": "The proper (visual) alpha rhythm is modulated (synchronized, desynchronized) by opening and closing the eyes. This phenomenon is best observed on the frontal EEG channels.",
-    "maxScore": 1,
+    "text": "The oscillations of mu rhythm are more 'arc-shaped', rather than resembling a regular sinewave.",
+    "maxScore": 0.5,
     "type": "TRUE_FALSE",
     "options": ["True", "False"],
-    "answer": ["False"],
-    "explanation": "Only the first half of the statement is true. The primary visual area is located in the occipital cortex, thus the occipital (and parietal) channels are most sensitive."
+    "answer": ["True"],
+    "explanation": "Mu rhythm has a characteristic arc or 'wicket' shape, which distinguishes it from a simple sinewave."
   },
   {
     "id": "B43",
     "part": "B",
-    "text": "Given two ranges of equal width A=[-0.1,+0.1] and B=[0.8,1.0], it is less likely that samples of a sinewave x=(t) will have amplitude in A rather than B.",
-    "maxScore": 1,
+    "text": "The advantage of a high CMRR amplifier is that it suppresses common-mode disturbances such as powerline (50 Hz) noise.",
+    "maxScore": 0.5,
     "type": "TRUE_FALSE",
     "options": ["True", "False"],
     "answer": ["True"],
-    "explanation": "TRUE, the probability density function of amplitude is lowest for x = 0"
+    "explanation": "A high Common-Mode Rejection Ratio (CMRR) is crucial for amplifiers to effectively reject common-mode noise, such as powerline interference, improving signal quality."
   },
   {
     "id": "B44",
     "part": "B",
-    "text": "A BCI system may replace functions that are physiologically subserved by nerves and muscles, by directly measuring brain activity and converting it to an artificial output.",
-    "maxScore": 1,
+    "text": "The difference of contact impedances of electrodes should be small compared to the input difference of the differential amplifier, otherwise the resulting unbalance compromises its common-mode rejection capability.",
+    "maxScore": 0.5,
     "type": "TRUE_FALSE",
     "options": ["True", "False"],
     "answer": ["True"],
-    "explanation": "TRUE"
+    "explanation": "Balanced electrode impedances are critical for the effective operation of differential amplifiers, as large imbalances can degrade the amplifier's common-mode rejection and lead to increased noise."
   },
   {
     "id": "B45",
     "part": "B",
-    "text": "The advantage of a high CMRR amplifier is that it suppresses high frequency disturbance.",
-    "maxScore": 1,
+    "text": "Contact impedance of the electrodes can be measured using a direct (non-alternating) current.",
+    "maxScore": 0.5,
     "type": "TRUE_FALSE",
     "options": ["True", "False"],
     "answer": ["False"],
-    "explanation": "The advantage of a high CMRR amplifier is that it suppresses common-mode disturbances, such as powerline (50 Hz) noise."
+    "explanation": "Contact impedance is frequency dependent and must be measured with an alternating current in the same frequency range as the EEG to accurately reflect recording conditions."
   },
   {
     "id": "B46",
     "part": "B",
-    "text": "The purpose a filter is to allow desired spectral component of a signal to pass almost unaltered, while attenuating undesired spectral components",
-    "maxScore": 1,
+    "text": "The EEG electrode F8 is located to the left of electrode F7.",
+    "maxScore": 0.5,
     "type": "TRUE_FALSE",
     "options": ["True", "False"],
-    "answer": ["True"],
-    "explanation": "TRUE"
+    "answer": ["False"],
+    "explanation": "In the International 10-20 System, electrodes with odd numbers (e.g., F7) are on the left hemisphere, and electrodes with even numbers (e.g., F8) are on the right hemisphere. Thus, F8 is to the right of F7."
   },
   {
     "id": "B47",
     "part": "B",
-    "text": "The DFT of a signal represents the amplitude Ai and initial phases φi of sinewave components of the signal at frequencies fi ranging from 0Hz (included) to the sampling frequency (excluded).",
-    "maxScore": 1,
+    "text": "An eyeblink produces an artifact which often interferes with the analysis of the beta band of the EEG.",
+    "maxScore": 0.5,
     "type": "TRUE_FALSE",
     "options": ["True", "False"],
-    "answer": ["True"],
-    "explanation": "TRUE"
+    "answer": ["False"],
+    "explanation": "An eyeblink artifact is a slow wave lasting several tens of a second (i.e., well below 10 Hz), primarily affecting lower frequency bands like delta and theta, not typically the beta band."
   },
   {
     "id": "B48",
     "part": "B",
-    "text": "The Inter-Stimulus Interval (ISI) equals the SOA minus the ITI.",
-    "maxScore": 1,
+    "text": "Powerline noise is accentuated by asymmetries in the recording electrode pairs, such as impedances and cable path, because asymmetries prevent the noise to be rejected by the amplifier's common-mode rejection capabilities.",
+    "maxScore": 0.5,
     "type": "TRUE_FALSE",
     "options": ["True", "False"],
-    "answer": ["False"],
-    "explanation": "The ISI equals the SOA minus the stimulus duration."
+    "answer": ["True"],
+    "explanation": "Asymmetries in electrode impedances or cable paths create differences in how common-mode powerline noise affects each input of a differential amplifier, thereby reducing its ability to cancel out the noise."
   },
   {
     "id": "B49",
     "part": "B",
-    "text": "The purpose a filter is to allow desired spectral component of a signal to pass almost unaltered, while attenuating undesired spectral components",
-    "maxScore": 1,
+    "text": "Notch filters effectively remove powerline noise because they selectively reject the narrow band affected by the artifact, preserving almost entirely the useful signal.",
+    "maxScore": 0.5,
     "type": "TRUE_FALSE",
     "options": ["True", "False"],
     "answer": ["True"],
-    "explanation": "TRUE"
+    "explanation": "Notch filters are designed to attenuate a very narrow frequency band (e.g., 50 or 60 Hz powerline noise) while minimizing impact on surrounding frequencies, thus preserving the majority of the useful signal."
   },
   {
     "id": "B50",
     "part": "B",
-    "text": "The DFT of a signal represents the amplitude Ai and initial phases φi of sinewave components of the signal at frequencies fi ranging from 0Hz (included) to the sampling frequency (excluded).",
-    "maxScore": 1,
+    "text": "The potential at the peak of the EP component P20 is higher than the potential at the peak of the N100 component.",
+    "maxScore": 0.5,
     "type": "TRUE_FALSE",
     "options": ["True", "False"],
     "answer": ["True"],
-    "explanation": "TRUE"
+    "explanation": "P20 denotes a positive peak occurring around 20 ms, while N100 denotes a negative peak around 100 ms. A positive potential is numerically higher than a negative potential."
   },
   {
     "id": "B51",
     "part": "B",
-    "text": "In ERP analysis, the EEG continuous recording must be segmented into epochs (trials) of fixed duration, each aligned to a repetition of the event",
-    "maxScore": 1,
+    "text": "One can never remove one of the channels from the raw EEG recording prior to analysis. Rather all epochs contaminated from artifacts will be rejected.",
+    "maxScore": 0.5,
     "type": "TRUE_FALSE",
     "options": ["True", "False"],
-    "answer": ["True"],
-    "explanation": "TRUE"
+    "answer": ["False"],
+    "explanation": "Artifact rejection should aim at minimizing the amount of data discarded. If removing a whole channel prevents discarding a large number of trials, this option should be considered as a valid strategy for artifact management."
   },
   {
     "id": "B52",
     "part": "B",
-    "text": "A negative peak in a ERP recorded on a specific subject with a latency of 108ms may still be named N100, if it matches the physiological phenomenon of the nominal N100 component.",
-    "maxScore": 1,
+    "text": "Evoked brain activity is phase-locked to the stimulus to which it is a response.",
+    "maxScore": 0.5,
     "type": "TRUE_FALSE",
     "options": ["True", "False"],
     "answer": ["True"],
-    "explanation": "TRUE"
+    "explanation": "Evoked potentials (EPs) are consistently time-locked and often phase-locked to the onset of a stimulus, meaning their phase relationship with the stimulus is stable across trials."
   },
   {
     "id": "B53",
     "part": "B",
-    "text": "In an ERP, the response to a stimulus has a reduced amplitude when the SOA is too short.",
-    "maxScore": 1,
+    "text": "Event-Related Desynchronization/Synchronization (ERD/S) quantify relative changes of the power of the EEG rhythm in a predefined frequency range, relative to a baseline period.",
+    "maxScore": 0.5,
     "type": "TRUE_FALSE",
     "options": ["True", "False"],
     "answer": ["True"],
-    "explanation": "TRUE"
+    "explanation": "ERD/S measure event-related power decreases (desynchronization) or increases (synchronization) in specific EEG frequency bands, typically compared to a prestimulus baseline."
   },
   {
     "id": "B54",
     "part": "B",
-    "text": "Despite being more expensive, gold electrodes should be preferred to Ag/AgCl electrodes since they allow recording of extremely slow-changing EEG potentials.",
-    "maxScore": 1,
+    "text": "In Analog to Digital Conversion, the Nyquist frequency equals half of the sampling frequency.",
+    "maxScore": 0.5,
     "type": "TRUE_FALSE",
     "options": ["True", "False"],
-    "answer": ["False"],
-    "explanation": "Gold electrodes are polarizable, thus the opposite is true"
+    "answer": ["True"],
+    "explanation": "The Nyquist frequency is defined as half of the sampling frequency, representing the maximum frequency component that can be accurately represented in a digital signal without aliasing."
   },
   {
     "id": "B55",
     "part": "B",
-    "text": "EEG electrodes whose first letter of the label is \"C\" (e.g. \"Cz\") are located on the central region of the head, i.e. the region between the left and the right hemisphere",
-    "maxScore": 1,
+    "text": "Appropriate application of an analog filter (i.e. before the analog signal is converted) may prevent saturation by removing high amplitude artifacts in specific frequency bands.",
+    "maxScore": 0.5,
     "type": "TRUE_FALSE",
     "options": ["True", "False"],
-    "answer": ["False"],
-    "explanation": "The central region is above the central sulcus which divides the frontal and parietal lobes. The mesial region is above the interhemispheric scissure, and it is designated by a trailing \"z\" in EEG labels"
+    "answer": ["True"],
+    "explanation": "Analog filters applied prior to ADC (Analog-to-Digital Conversion) can prevent high-amplitude artifacts from exceeding the ADC's input range, thereby avoiding saturation and preserving signal integrity."
   },
   {
     "id": "B56",
     "part": "B",
-    "text": "Ensuring a contact impedance below 5 kΩ is not relevant when the input impedance of the EEG amplifier is below 50 kΩ",
-    "maxScore": 1,
+    "text": "Quantization divides the input range of the ADC into (approximately) NBITS intervals, where NBITS is the number of bits of the ADC.",
+    "maxScore": 0.5,
     "type": "TRUE_FALSE",
     "options": ["True", "False"],
     "answer": ["False"],
-    "explanation": "The opposite is true: the input impedance of the EEG amplifier must be several orders of magnitude higher than the contact impedance"
+    "explanation": "Quantization divides the input range of the ADC into 2^NBITS intervals, where NBITS is the number of bits. Each interval corresponds to a discrete digital value."
   },
   {
     "id": "B57",
     "part": "B",
-    "text": "The artifact generated by eye movements can reach amplitudes up to 5µV in the EEG recordings",
-    "maxScore": 1,
+    "text": "The RMS (Root Mean Square) and the standard deviation of a zero-mean signal have the same value (assume that the number of samples N → ∞).",
+    "maxScore": 0.5,
     "type": "TRUE_FALSE",
     "options": ["True", "False"],
-    "answer": ["False"],
-    "explanation": "EOG artifacts can be two orders of magnitude higher than that."
+    "answer": ["True"],
+    "explanation": "For a zero-mean signal, the RMS value is equivalent to the standard deviation (or root of variance) when the number of samples is sufficiently large (approaching infinity)."
   },
   {
     "id": "B58",
     "part": "B",
-    "text": "The Central Limit Theorem (CLT) states that the average of N zero-mean independent identically distributed signals approaches zero for N → ∞.",
-    "maxScore": 1,
+    "text": "The frequency spectrum of white noise is flat, i.e. it has the same power at any frequency.",
+    "maxScore": 0.5,
     "type": "TRUE_FALSE",
     "options": ["True", "False"],
     "answer": ["True"],
-    "explanation": "TRUE"
+    "explanation": "By definition, white noise has a flat power spectral density, meaning that its power is evenly distributed across all frequencies."
   },
   {
     "id": "B59",
     "part": "B",
-    "text": "The measurement of two monopolar EEG channels requires four electrodes – two collecting the potentials fed to the non-inverting input of the differential amplifier, one providing the reference potential and one providing the ground potential.",
-    "maxScore": 1,
+    "text": "The Central Limit Theorem (CLT) states that the average of N independent identically distributed signals tends to zero for N → ∞.",
+    "maxScore": 0.5,
     "type": "TRUE_FALSE",
     "options": ["True", "False"],
-    "answer": ["True"],
-    "explanation": "TRUE"
+    "answer": ["False"],
+    "explanation": "The Central Limit Theorem (CLT) states that the distribution of sample means approaches a normal distribution as N increases, regardless of the original distribution's shape. It tends towards the population mean, not necessarily zero, unless the population mean itself is zero."
   },
   {
     "id": "B60",
     "part": "B",
-    "text": "In analog-to-digital conversion, each spectral component of the analog signal should have frequency below the Nyquist frequency",
-    "maxScore": 1,
+    "text": "The method of the averaged periodogram to estimate the spectrum of a stochastic signal is applied when a lower variability of the PSD estimate at each frequency sample is desirable, while the spectral resolution Δf is higher than required.",
+    "maxScore": 0.5,
     "type": "TRUE_FALSE",
     "options": ["True", "False"],
     "answer": ["True"],
-    "explanation": "TRUE"
+    "explanation": "The averaged periodogram (e.g., Welch's method) is used to reduce the variance of the Power Spectral Density (PSD) estimate, especially for stochastic signals. This often involves segmenting the signal and averaging the periodograms of these segments, which can come at the cost of spectral resolution, or when high resolution is not the primary goal compared to stable estimates."
   },
   {
     "id": "B61",
     "part": "B",
-    "text": "The heart activity is likely to contaminate an EEG recording if the reference electrode is not placed on the head.",
-    "maxScore": 1,
+    "text": "The Butterworth filter is a design method in the family of FIR (Finite Impulse Response) filters.",
+    "maxScore": 0.5,
     "type": "TRUE_FALSE",
     "options": ["True", "False"],
-    "answer": ["True"],
-    "explanation": "TRUE"
+    "answer": ["False"],
+    "explanation": "The Butterworth filter is a type of Infinite Impulse Response (IIR) filter, known for its maximally flat frequency response in the passband."
   },
   {
     "id": "B62",
     "part": "B",
-    "text": "The alpha rhythm can be observed by filtering the spontaneous EEG signal using a narrowband filter, with cutoff frequencies at 14 and 30 Hz (approximately)",
-    "maxScore": 1,
+    "text": "The amplitude of sensorimotor rhythms can be voluntarily modulated through the exercise of motor imagery, to build a cursor control based on a BCI.",
+    "maxScore": 0.5,
     "type": "TRUE_FALSE",
     "options": ["True", "False"],
-    "answer": ["False"],
-    "explanation": "With these cutoff frequencies we would observe the beta rhythm"
+    "answer": ["True"],
+    "explanation": "Motor imagery is a common paradigm in Brain-Computer Interfaces (BCIs) to modulate sensorimotor rhythms (e.g., mu or beta rhythms) for controlling external devices like cursors or prosthetics."
   },
   {
     "id": "B63",
     "part": "B",
-    "text": "The synchronized average of N trials containing only spontaneous EEG whose variance {var}{trial}=σ^2 is a signal whose variance {var}{avg}=σ^2/N",
-    "maxScore": 1,
+    "text": "The 'waxing and waning' of the alpha rhythm is a change of amplitude occurring about 10 times a second.",
+    "maxScore": 0.5,
     "type": "TRUE_FALSE",
     "options": ["True", "False"],
-    "answer": ["True"],
-    "explanation": "TRUE"
+    "answer": ["False"],
+    "explanation": "The oscillation of the alpha rhythm itself occurs approximately 10 times a second (8-13 Hz). 'Waxing and waning' describes the *amplitude modulation* of the rhythm, which occurs at a much slower rate (e.g., an order of magnitude more slowly) than the alpha frequency itself."
   },
   {
     "id": "B64",
     "part": "B",
-    "text": "The proper (visual) alpha rhythm is modulated (synchronized, desynchronized) by opening and closing the eyes. This phenomenon is best observed on the frontal EEG channels.",
-    "maxScore": 1,
+    "text": "The delta and gamma frequency bands identify frequencies lower than those in the alpha band.",
+    "maxScore": 0.5,
     "type": "TRUE_FALSE",
     "options": ["True", "False"],
     "answer": ["False"],
-    "explanation": "Only the first half of the statement is true. The primary visual area is located in the occipital cortex, thus the occipital (and parietal) channels are most sensitive."
+    "explanation": "The delta frequency band (< 3.5 Hz) is indeed lower than the alpha band (8-13 Hz). However, the gamma band (> 30 Hz) is *higher* than the alpha band. Thus, the statement as a whole is false."
   },
   {
     "id": "B65",
     "part": "B",
-    "text": "In an ADC, quantization introduces a noise whose amplitude is proportional to the width of the quantization interval (VLSB): σquant = 1/√12 VLSB",
-    "maxScore": 1,
+    "text": "The CMRR of an EEG amplifier should be lower than 60 dB.",
+    "maxScore": 0.5,
     "type": "TRUE_FALSE",
     "options": ["True", "False"],
-    "answer": ["True"],
-    "explanation": "TRUE"
+    "answer": ["False"],
+    "explanation": "An instrumentation amplifier should have a high CMRR. Good values are 90 dB and up, indicating superior common-mode noise rejection. A lower CMRR means poorer rejection."
   },
   {
     "id": "B66",
     "part": "B",
-    "text": "As a preliminary step to EEG data analysis, one or more channels can be removed from the dataset if they are extensively contaminated by artifacts",
-    "maxScore": 1,
+    "text": "If the electrodes' contact impedance is not much lower than the amplifier's input impedance, the amplitude of the measured potential is closer to zero than the actual value.",
+    "maxScore": 0.5,
     "type": "TRUE_FALSE",
     "options": ["True", "False"],
     "answer": ["True"],
-    "explanation": "TRUE"
+    "explanation": "In an electrical circuit (voltage divider model), if the electrode impedance is comparable to the amplifier's input impedance, a significant portion of the biological signal's voltage will drop across the electrode impedance, leading to a measured potential that is attenuated (closer to zero) compared to the true biological potential."
   },
   {
     "id": "B67",
     "part": "B",
-    "text": "A BCI system may replace functions that are physiologically subserved by nerves and muscles, by directly measuring brain activity and converting it to an artificial output.",
-    "maxScore": 1,
+    "text": "Contact impedance of the electrodes is measured in kiloOhm (kΩ) and must be measured using an alternating current.",
+    "maxScore": 0.5,
     "type": "TRUE_FALSE",
     "options": ["True", "False"],
     "answer": ["True"],
-    "explanation": "TRUE"
+    "explanation": "Electrode-skin impedance is typically in the kΩ range and is frequency-dependent due to capacitive effects of the skin. Therefore, it should be measured with an alternating current at frequencies relevant to the EEG recording to accurately reflect its effective impedance."
   },
   {
     "id": "B68",
     "part": "B",
-    "text": "The CMRR of a bipolar amplifier measures the ratio between the gain of their average with respect to the electrical ground and the gain of the potential difference between the input electrodes.",
-    "maxScore": 1,
+    "text": "In the electrode labels of the International 10-20 System, odd numbers designate electrodes on the left side of the head.",
+    "maxScore": 0.5,
     "type": "TRUE_FALSE",
     "options": ["True", "False"],
-    "answer": ["False"],
-    "explanation": "Numerator and denominator are swapped"
+    "answer": ["True"],
+    "explanation": "In the 10-20 system, odd numbers (e.g., F7, T3, P3) indicate electrodes over the left hemisphere, and even numbers (e.g., F8, T4, P4) indicate electrodes over the right hemisphere. 'Z' indicates midline."
   },
   {
     "id": "B69",
     "part": "B",
-    "text": "The frequency response of a filter in the stopband should be plotted in a graph whose vertical axis has a logarithmic scale (i.e. the gain is expressed in dB).",
-    "maxScore": 1,
+    "text": "The eye's potential is more negative in its frontal part than its posterior part, and thus its movements can generate large positive artifacts on the EEG.",
+    "maxScore": 0.5,
     "type": "TRUE_FALSE",
     "options": ["True", "False"],
-    "answer": ["True"],
-    "explanation": "TRUE"
+    "answer": ["False"],
+    "explanation": "The cornea (frontal part) is more positive than the retina (posterior part) due to the corneo-retinal dipole. Therefore, eye movements typically generate positive potentials in the direction of gaze for electrodes over the frontal regions."
   },
   {
     "id": "B70",
     "part": "B",
-    "text": "Evoked potential is synonymous of Event-Related Potentials",
-    "maxScore": 1,
+    "text": "Sweating can affect the EEG, causing an increase of contact impedance and an increase of powerline noise.",
+    "maxScore": 0.5,
     "type": "TRUE_FALSE",
     "options": ["True", "False"],
     "answer": ["False"],
-    "explanation": "Event related potentials include evoke potentials, as well as EEG responses to motor or cognitive events."
+    "explanation": "Sweating typically *decreases* contact impedance by increasing the conductivity of the skin. However, it can introduce other artifacts such as slow drifts, but usually not an *increase* in impedance or powerline noise directly from impedance changes."
   },
   {
     "id": "B71",
     "part": "B",
-    "text": "The RMS is the square root of the average of the squared value of the samples of a signal",
-    "maxScore": 1,
+    "text": "Notch filters effectively remove powerline noise because they reject all signals above their corner frequency.",
+    "maxScore": 0.5,
     "type": "TRUE_FALSE",
     "options": ["True", "False"],
-    "answer": ["True"],
-    "explanation": ""
+    "answer": ["False"],
+    "explanation": "Notch filters are *band-stop* filters that selectively reject a *narrow band* of frequencies around a specific central frequency (e.g., 50 or 60 Hz) to remove powerline noise. This is different from a low-pass filter, which rejects all signals above a corner frequency."
   },
   {
     "id": "B72",
     "part": "B",
-    "text": "Aliasing occurs when an analog signal is sampled using a limited input range of the ADC.",
-    "maxScore": 1,
+    "text": "The SOA (Stimulus Onset Asynchrony) is always greater than the ISI (Inter-Stimulus Interval).",
+    "maxScore": 0.5,
     "type": "TRUE_FALSE",
     "options": ["True", "False"],
-    "answer": ["False"],
-    "explanation": "Aliasing occurs when an analog signal is sampled outside the conditions set by the Shannon's theorem. Clipping (saturation) occurs when the input range of the ADC is smaller than the amplitude of the input analog signal."
+    "answer": ["True"],
+    "explanation": "SOA refers to the time from the onset of one stimulus to the onset of the next. ISI refers to the time from the offset of one stimulus to the onset of the next. Thus, SOA = ISI + Duration of the stimulus. Since duration of stimulus is always > 0, SOA will always be greater than ISI."
   },
   {
     "id": "B73",
     "part": "B",
-    "text": "We need to measure the amplitude and duration of an action potential each time it occurs to understand the cell behavior.",
-    "maxScore": 1,
+    "text": "Synchronized averaging of N EEG trials produces N values each corresponding to the average value of the potential in each trial.",
+    "maxScore": 0.5,
     "type": "TRUE_FALSE",
     "options": ["True", "False"],
     "answer": ["False"],
-    "explanation": "The amplitude and duration are the same for all APs."
+    "explanation": "Synchronized averaging produces *one* average waveform, not N individual values. The number of samples in the averaged waveform is the same as the number of samples in each trial, but each sample in the average is the mean of the corresponding sample across N trials."
   },
   {
     "id": "B74",
     "part": "B",
-    "text": "The neuronal resting membrane potential is given by the sum of diffusional forces, electrical forces, and ion pumps activity",
-    "maxScore": 1,
+    "text": "Induced activity is best analyzed by applying the synchronized averaging to the EEG trials.",
+    "maxScore": 0.5,
     "type": "TRUE_FALSE",
     "options": ["True", "False"],
-    "answer": ["True"],
-    "explanation": ""
+    "answer": ["False"],
+    "explanation": "Synchronized averaging is used to analyze *evoked* activity (time-locked and phase-locked). Induced activity is time-locked but *not* phase-locked to the event; therefore, it is cancelled out by simple synchronized averaging. It requires other methods like time-frequency analysis."
   },
   {
     "id": "B75",
     "part": "B",
-    "text": "A neuron's firing rate tuning curve reporting the firing rate of a neuron of the primary visual cortex (B) in response to the orientation angle of a visual stimulus (A). If the measured firing rate is 20 Hz, I can infer a univocal orientation angle that produced that response.",
-    "maxScore": 1,
+    "text": "Event-Related Desynchronization/Synchronization (ERD/S) quantify the amount of coupling between signals on two EEG channels.",
+    "maxScore": 0.5,
     "type": "TRUE_FALSE",
     "options": ["True", "False"],
     "answer": ["False"],
-    "explanation": "There are two possible orientations that produce a 20 Hz firing rate (-20 and 20 degrees)."
+    "explanation": "ERD/S quantify changes in power within a single EEG channel or region relative to a baseline period. Measures of coupling between channels include coherence, phase-locking value, or Granger causality."
   },
   {
     "id": "B76",
     "part": "B",
-    "text": "In reference to the previous figure: from the curve I can conclude that there is a preferred stimulus orientation for which this neuron is designed to respond.",
-    "maxScore": 1,
+    "text": "Aliasing can be prevented by applying a digital low-pass filter with cutoff frequency lower than the Nyquist frequency.",
+    "maxScore": 0.5,
     "type": "TRUE_FALSE",
     "options": ["True", "False"],
-    "answer": ["True"],
-    "explanation": ""
+    "answer": ["False"],
+    "explanation": "Aliasing occurs *during* the analog-to-digital conversion. It must be prevented by applying an *analog* anti-aliasing filter *before* ADC. Digital filters are applied *after* sampling and cannot undo aliasing that has already occurred."
   },
   {
     "id": "B77",
     "part": "B",
-    "text": "In reference to the previous figure: there are stimulus orientation angles to which this neuron is “blind\" (i.e., it doesn't show any response).",
-    "maxScore": 1,
+    "text": "When aliasing occurs in ADC, a sinusoidal component with frequency fo = 0.7 fs is reconstructed as a sinusoidal component at f1 = 0.2 fs (where fs is the sampling frequency).",
+    "maxScore": 0.5,
     "type": "TRUE_FALSE",
     "options": ["True", "False"],
-    "answer": ["True"],
-    "explanation": ""
+    "answer": ["False"],
+    "explanation": "When aliasing occurs, the aliased frequency (f1) is calculated as f1 = |f0 - k*fs| or |k*fs - f0|, where k is an integer and f1 falls within the Nyquist range [0, fs/2]. For f0 = 0.7 fs, the closest integer multiple of fs to 0.7 fs is 1*fs. So, f1 = |0.7 fs - 1*fs| = |-0.3 fs| = 0.3 fs. Thus, it reconstructs as 0.3 fs, not 0.2 fs."
   },
   {
     "id": "B78",
     "part": "B",
-    "text": "A ROC curve describes a threshold classification between two conditions (stimuli) at different levels of coherence of the stimulation. The best curve is the one closer to the upper left corner.",
-    "maxScore": 1,
+    "text": "Quantization divides the input range of the ADC into (approximately) 2^NBITS intervals, where NBITS is the number of bits of the ADC.",
+    "maxScore": 0.5,
     "type": "TRUE_FALSE",
     "options": ["True", "False"],
     "answer": ["True"],
-    "explanation": ""
+    "explanation": "An N-bit ADC has 2^N possible digital output levels. These levels correspond to 2^N-1 intervals within the input voltage range. So, approximately 2^NBITS intervals."
   },
   {
     "id": "B79",
     "part": "B",
-    "text": "In reference to the previous ROC curve: the Area Under the Curve (AUC) for each level of coherence is proportional to the discriminability of the two conditions.",
-    "maxScore": 1,
+    "text": "The RMS (Root Mean Square) is the average of the squared value of the samples of a signal.",
+    "maxScore": 0.5,
     "type": "TRUE_FALSE",
     "options": ["True", "False"],
-    "answer": ["True"],
-    "explanation": ""
+    "answer": ["False"],
+    "explanation": "The RMS is the *square root of* the average of the squared values of the samples of a signal. The statement describes the Mean Squared value, not the Root Mean Square."
   },
   {
     "id": "B80",
     "part": "B",
-    "text": "In reference to the previous ROC curve: by considering only the true positives and false positives, and neglecting the true negatives and false negatives, we miss part of the results of the classification.",
-    "maxScore": 1,
+    "text": "It is more likely that samples of a zero-mean Gaussian noise will have amplitude in [-0.5, +0.5] rather than [0.5, 1.5].",
+    "maxScore": 0.5,
     "type": "TRUE_FALSE",
     "options": ["True", "False"],
-    "answer": ["False"],
-    "explanation": "True negatives and false negatives are related to false positives and true positives, respectively. Therefore, we are not neglecting any result of the classification."
+    "answer": ["True"],
+    "explanation": "The Gaussian probability distribution peaks at its mean (which is 0 for zero-mean Gaussian noise). Therefore, probability is higher for values closer to the mean, meaning in an interval centered around 0 (like [-0.5, +0.5]) compared to an interval further away from 0 (like [0.5, 1.5]), assuming similar interval widths."
   },
   {
     "id": "B81",
     "part": "B",
-    "text": "The difference between the Wiener's and Granger's definitions of causality in the statistical sense is that Granger indicated a modeling framework to be used to test causality.",
-    "maxScore": 1,
+    "text": "The probability distribution of the average of N independent and identically distributed random variables approaches zero for N → ∞.",
+    "maxScore": 0.5,
     "type": "TRUE_FALSE",
     "options": ["True", "False"],
-    "answer": ["True"],
-    "explanation": ""
+    "answer": ["False"],
+    "explanation": "According to the Law of Large Numbers and Central Limit Theorem, the average of N i.i.d. random variables will converge to the true population mean (μ) as N approaches infinity. Its distribution will approach a Gaussian distribution centered at μ, not zero (unless μ itself is zero)."
   },
   {
     "id": "B82",
     "part": "B",
-    "text": "Given the Granger Index Gxy between two time series x and y, a negative value of Gx→y means an inverse precedence between the two time series.",
-    "maxScore": 1,
+    "text": "An IIR filter can be designed to have 'linear phase', so that they do not introduce time-domain distortions in the waveform of the output signal.",
+    "maxScore": 0.5,
     "type": "TRUE_FALSE",
     "options": ["True", "False"],
     "answer": ["False"],
-    "explanation": "A negative value of Gx→y means that the residual of the bivariate model is higher than in the simple model, which is probably due to an incorrect modeling."
+    "explanation": "IIR (Infinite Impulse Response) filters generally cannot achieve perfect linear phase response, especially over wide frequency ranges. Linear phase is a characteristic of FIR (Finite Impulse Response) filters, which is desirable to avoid phase distortion in the signal."
   },
   {
     "id": "B83",
     "part": "B",
-    "text": "The Granger Test is more suitable than the Ordinary Coherence to obtain a spectral measure.",
+    "text": "For a signal sampled with sampling interval ΔTs = 0.002s, what is the frequency range of its spectrum?",
     "maxScore": 1,
+    "type": "MULTIPLE_CHOICE",
+    "options": [
+      "A. [-500,+500] Hz",
+      "B. [-200,+200] Hz",
+      "C. [-0.002, 0.002] kHz",
+      "D. None of the above"
+    ],
+    "answer": ["D. None of the above"],
+    "explanation": "The sampling frequency (fs) is 1/ΔTs = 1/0.002s = 500 Hz. The unique frequency content of a real signal ranges from 0 to the Nyquist frequency, which is fs/2 = 250 Hz. So, the effective range is [0, 250] Hz or symmetrically [-250, +250] Hz. The options provided do not match this range."
+  },
+  {
+    "id": "B63",
+    "part": "B",
+    "text": "The amplitude of the mu rhythm is increased at the beginning of a motor task.",
+    "maxScore": 0.5,
     "type": "TRUE_FALSE",
     "options": ["True", "False"],
     "answer": ["False"],
-    "explanation": "GC is not a spectral measure. OC is."
+    "explanation": "The mu rhythm (8-13 Hz) typically shows event-related desynchronization (ERD), meaning its amplitude *decreases* at the beginning of and during a motor task or motor imagery, reflecting cortical activation."
+  },
+  {
+    "id": "B64",
+    "part": "B",
+    "text": "The CMRR (Common-Mode Rejection Ratio) is usually expressed in decibel (dB) and high values characterize better amplifiers.",
+    "maxScore": 0.5,
+    "type": "TRUE_FALSE",
+    "options": ["True", "False"],
+    "answer": ["True"],
+    "explanation": "CMRR is a critical specification for differential amplifiers, expressed in dB, indicating their ability to reject common-mode noise. Higher dB values denote better rejection of unwanted signals, leading to cleaner recordings."
+  },
+  {
+    "id": "B65",
+    "part": "B",
+    "text": "The difference of contact impedances of electrodes should be small compared to the input difference of the differential amplifier, otherwise the resulting unbalance compromises its common-mode rejection capability.",
+    "maxScore": 0.5,
+    "type": "TRUE_FALSE",
+    "options": ["True", "False"],
+    "answer": ["True"],
+    "explanation": "For a differential amplifier to effectively reject common-mode noise, the impedances at its two inputs (including electrode contact impedances) must be closely matched. Significant imbalances lead to conversion of common-mode noise into differential mode, reducing CMRR."
+  },
+  {
+    "id": "B66",
+    "part": "B",
+    "text": "Contact impedance of the electrodes is measured in kiloOhm (kΩ) and must be measured using a direct current (DC).",
+    "maxScore": 0.5,
+    "type": "TRUE_FALSE",
+    "options": ["True", "False"],
+    "answer": ["False"],
+    "explanation": "Electrode-skin contact impedance is frequency-dependent due to capacitive properties of the skin. Therefore, it must be measured using an alternating current (AC) at frequencies relevant to the EEG signal (e.g., 10-100 Hz) to get an accurate representation of its impedance during recording."
+  },
+  {
+    "id": "B67",
+    "part": "B",
+    "text": "The EEG electrode F8 is located to the left of electrode F6.",
+    "maxScore": 0.5,
+    "type": "TRUE_FALSE",
+    "options": ["True", "False"],
+    "answer": ["False"],
+    "explanation": "In the International 10-20 System, odd-numbered electrodes (like F7, F5) are on the left side of the head, and even-numbered electrodes (like F8, F6) are on the right side. Thus, F8 is on the right side, to the right of F6."
+  },
+  {
+    "id": "B68",
+    "part": "B",
+    "text": "EMG artifacts on an EEG recording mainly affects the alpha band and specifically the mu rhythm.",
+    "maxScore": 0.5,
+    "type": "TRUE_FALSE",
+    "options": ["True", "False"],
+    "answer": ["False"],
+    "explanation": "EMG (muscle) artifacts typically have spectral content above 20 Hz, primarily contaminating the beta (14-30 Hz) and gamma (30+ Hz) frequency bands of the EEG, rather than the alpha (8-13 Hz) band or mu rhythm."
+  },
+  {
+    "id": "B69",
+    "part": "B",
+    "text": "Powerline noise is accentuated by asymmetries in the recording electrode pairs, such as impedances and cable path, because asymmetries prevent the noise to be rejected by the amplifier's common-mode rejection capabilities.",
+    "maxScore": 0.5,
+    "type": "TRUE_FALSE",
+    "options": ["True", "False"],
+    "answer": ["True"],
+    "explanation": "Differential amplifiers rely on balanced inputs to effectively reject common-mode noise. Asymmetries in electrode impedances or cabling lead to unequal common-mode signals at the inputs, reducing the amplifier's ability to cancel the noise, thus accentuating its presence in the recording."
+  },
+  {
+    "id": "B70",
+    "part": "B",
+    "text": "Notch filters effectively remove powerline noise because they selectively reject the narrow band affected by the artifact, preserving almost entirely the useful signal.",
+    "maxScore": 0.5,
+    "type": "TRUE_FALSE",
+    "options": ["True", "False"],
+    "answer": ["True"],
+    "explanation": "Notch filters are specifically designed as very narrow band-stop filters that attenuate a single frequency (e.g., 50 or 60 Hz) and its immediate surroundings. This allows them to remove powerline interference with minimal impact on the broader useful EEG frequency range."
+  },
+  {
+    "id": "B71",
+    "part": "B",
+    "text": "The N20 component of an EP occurs before the stimulus (Negative latency) while the P300 occurs after the stimulus (Positive latency).",
+    "maxScore": 0.5,
+    "type": "TRUE_FALSE",
+    "options": ["True", "False"],
+    "answer": ["True"],
+    "explanation": "The N20 is a negative-polarity peak occurring around 20ms post-stimulus (thus, positive latency from stimulus onset at time 0). The P300 is a positive-polarity peak occurring around 300ms post-stimulus (also positive latency). The 'Negative latency' phrasing for N20 likely refers to its negative *polarity*."
+  },
+  {
+    "id": "B72",
+    "part": "B",
+    "text": "The amplitude of ERPs (Event-Related Potentials) is measured with respect to a baseline epoch (usually preceding the stimulus), in which the amplitude is assumed to be zero.",
+    "maxScore": 0.5,
+    "type": "TRUE_FALSE",
+    "options": ["True", "False"],
+    "answer": ["True"],
+    "explanation": "To accurately quantify ERP deflections, their amplitude is typically measured relative to a pre-stimulus baseline period. This baseline is often set to zero by subtracting the mean amplitude of this period from the entire ERP waveform."
+  },
+  {
+    "id": "B73",
+    "part": "B",
+    "text": "Brain activity in response to a stimulus can be non-phase-locked, meaning that they show variable latency (jitter) at each repetition. This activity is called induced.",
+    "maxScore": 0.5,
+    "type": "TRUE_FALSE",
+    "options": ["True", "False"],
+    "answer": ["True"],
+    "explanation": "Induced brain activity refers to oscillatory responses that are time-locked to a stimulus (they occur reliably after the stimulus) but are not phase-locked, meaning their phase relative to the stimulus varies across trials, leading to 'jitter' in their onset."
+  },
+  {
+    "id": "B74",
+    "part": "B",
+    "text": "Event-Related Desynchronization/Synchronization (ERD/S) quantify relative changes of the power of the EEG rhythm in a predefined frequency range, relative to a baseline period.",
+    "maxScore": 0.5,
+    "type": "TRUE_FALSE",
+    "options": ["True", "False"],
+    "answer": ["True"],
+    "explanation": "ERD/S are measures of changes in the power of ongoing EEG oscillations (e.g., in alpha or beta bands) that are observed in response to an event, typically expressed as a percentage change from a pre-event baseline."
+  },
+  {
+    "id": "B75",
+    "part": "B",
+    "text": "In an ADC (Analog-to-Digital Converter), quantization introduces a noise whose amplitude is proportional to the width of the quantization interval: σ_quant = 1/√12 LSB (Least Significant Bit).",
+    "maxScore": 0.5,
+    "type": "TRUE_FALSE",
+    "options": ["True", "False"],
+    "answer": ["True"],
+    "explanation": "Quantization noise is inherent to digital conversion. For a uniform quantization step, the root-mean-square (RMS) amplitude of quantization noise is indeed approximately equal to the quantization step size divided by the square root of 12 (LSB/√12)."
+  },
+  {
+    "id": "B76",
+    "part": "B",
+    "text": "Aliasing occurs when an analog signal is sampled outside the conditions set by the Shannon's theorem.",
+    "maxScore": 0.5,
+    "type": "TRUE_FALSE",
+    "options": ["True", "False"],
+    "answer": ["True"],
+    "explanation": "Shannon's Nyquist-Shannon sampling theorem states that the sampling rate must be at least twice the highest frequency component in the analog signal. If this condition is not met (i.e., sampling outside these conditions), aliasing occurs, where higher frequencies are misrepresented as lower frequencies."
+  },
+  {
+    "id": "B77",
+    "part": "B",
+    "text": "Appropriate application of an analog filter (i.e., before the analog signal is converted) may prevent saturation by removing high amplitude artifacts in specific frequency bands.",
+    "maxScore": 0.5,
+    "type": "TRUE_FALSE",
+    "options": ["True", "False"],
+    "answer": ["True"],
+    "explanation": "Analog anti-aliasing filters are crucial and are applied before the ADC. They prevent high-frequency components (including artifacts) from causing aliasing and also from exceeding the ADC's input range, thereby preventing saturation or clipping."
+  },
+  {
+    "id": "B78",
+    "part": "B",
+    "text": "The RMS (Root Mean Square) and the ARV (Average Rectified Value) of a zero-mean signal have the same value (assume that the number of samples N → ∞).",
+    "maxScore": 0.5,
+    "type": "TRUE_FALSE",
+    "options": ["True", "False"],
+    "answer": ["False"],
+    "explanation": "For a zero-mean signal, the RMS equals the standard deviation (σ), while the ARV is the average of the absolute values. These two values are generally not the same (e.g., for a sine wave, RMS = A/√2, ARV = 2A/π)."
+  },
+  {
+    "id": "B79",
+    "part": "B",
+    "text": "The frequency spectrum of a gaussian noise is flat, i.e., it has the same power at any frequency.",
+    "maxScore": 0.5,
+    "type": "TRUE_FALSE",
+    "options": ["True", "False"],
+    "answer": ["False"],
+    "explanation": "Gaussian noise refers to the amplitude distribution of the noise (samples follow a normal distribution). A flat frequency spectrum is characteristic of *white noise*. While white noise can have a Gaussian amplitude distribution, 'Gaussian noise' itself does not inherently imply a flat spectrum; it's a property of the amplitude, not the frequency content."
+  },
+  {
+    "id": "B80",
+    "part": "B",
+    "text": "The synchronized average of N trials containing only spontaneous EEG whose RMS_trial = r² results in a signal with RMS_avg = σ²/N.",
+    "maxScore": 0.5,
+    "type": "TRUE_FALSE",
+    "options": ["True", "False"],
+    "answer": ["False"],
+    "explanation": "When averaging N trials of independent, zero-mean spontaneous EEG (noise), the RMS of the average signal will decrease by a factor of 1/√N. So, RMS_avg = RMS_trial / √N (or σ/√N if RMS_trial is σ). The formula σ²/N is for the variance of the average, not the RMS of the average."
+  },
+  {
+    "id": "B81",
+    "part": "B",
+    "text": "The Butterworth filter is a design method in the family of IIR (Infinite Impulse Response) filters.",
+    "maxScore": 0.5,
+    "type": "TRUE_FALSE",
+    "options": ["True", "False"],
+    "answer": ["True"],
+    "explanation": "Butterworth filters are indeed a type of Infinite Impulse Response (IIR) filter, known for their maximally flat magnitude response in the passband and stopband."
+  },
+  {
+    "id": "B82",
+    "part": "B",
+    "text": "The spectral leakage phenomenon is observed, for instance, when comparing the spectrum of a signal with the spectrum of a short section of the same signal.",
+    "maxScore": 0.5,
+    "type": "TRUE_FALSE",
+    "options": ["True", "False"],
+    "answer": ["True"],
+    "explanation": "Spectral leakage occurs when a finite-duration signal segment (e.g., a short section) does not contain an integer number of periods of its frequency components, leading to energy spreading across adjacent frequency bins in the Fourier transform."
+  },
+  {
+    "id": "B83",
+    "part": "B",
+    "text": "The P300 ERP generated by attending a target stimulus is exploited to build virtual keyboards based on a BCI.",
+    "maxScore": 0.5,
+    "type": "TRUE_FALSE",
+    "options": ["True", "False"],
+    "answer": ["True"],
+    "explanation": "The P300 event-related potential, elicited by rare or 'target' stimuli, is a widely used signal in Brain-Computer Interfaces (BCIs), particularly for 'P300 spellers' (virtual keyboards), where users select characters by attending to them."
   },
   {
     "id": "B84",
     "part": "B",
-    "text": "In an undirected graph, I cannot compute the indegree and the outdegree.",
-    "maxScore": 1,
-    "type": "TRUE_FALSE",
-    "options": ["True", "False"],
-    "answer": ["True"],
-    "explanation": "The concept of “in-degree\" and \"out-degree\" is based on directionality."
+    "text": "Order the following EEG rhythms by ascending frequency of oscillations: A. Alpha, B. Beta, C. Delta, D. Gamma, E. Theta.",
+    "maxScore": 0.5,
+    "type": "MULTIPLE_CHOICE",
+    "options": [
+      "A-B-C-D-E",
+      "C-E-A-B-D",
+      "D-B-A-E-C",
+      "E-C-A-D-B"
+    ],
+    "answer": ["C-E-A-B-D"],
+    "explanation": "The standard EEG frequency bands in ascending order are: Delta (0.5-4 Hz), Theta (4-8 Hz), Alpha (8-13 Hz), Beta (14-30 Hz), Gamma (30+ Hz). This corresponds to the order C-E-A-B-D."
   },
   {
     "id": "B85",
     "part": "B",
-    "text": "Regular networks have a smaller Local Efficiency than random networks",
-    "maxScore": 1,
+    "text": "The 'waxing and waning' of the alpha rhythm is a change of amplitude occurring about 10 times a second.",
+    "maxScore": 0.5,
     "type": "TRUE_FALSE",
     "options": ["True", "False"],
     "answer": ["False"],
-    "explanation": "Regular networks have a high Local Efficiency (higher than random ones)."
+    "explanation": "The alpha rhythm itself oscillates at about 10 Hz. 'Waxing and waning' refers to the slower *modulation* of the alpha rhythm's amplitude (e.g., in bursts), which occurs at a frequency much slower than 10 Hz (e.g., around 1-2 Hz)."
   },
   {
     "id": "B86",
     "part": "B",
-    "text": "In a graph, the minimum Divisibility is equal to zero.",
-    "maxScore": 1,
+    "text": "The CMRR (Common-Mode Rejection Ratio) is usually expressed in decibel (dB) and high values characterize better amplifiers.",
+    "maxScore": 0.5,
     "type": "TRUE_FALSE",
     "options": ["True", "False"],
-    "answer": ["False"],
-    "explanation": "According to the most used normalization, the minimum Divisibility is equal to 0.5. More generally, even with different choices of the term k, D can never be equal to zero."
+    "answer": ["True"],
+    "explanation": "A high CMRR in dB indicates that an amplifier is very effective at suppressing common-mode signals (noise common to both inputs) while amplifying differential signals, thus improving signal quality."
   },
   {
     "id": "B87",
     "part": "B",
-    "text": "The proper (visual) alpha rhythm is modulated (synchronized, desynchronized) by opening and closing the eyes. This phenomenon is best observed on the frontal EEG channels.",
-    "maxScore": 1,
+    "text": "The difference in contact impedances of electrodes should be small compared to the input impedance of the differential amplifier, otherwise the resulting unbalance compromises its common-mode rejection capability.",
+    "maxScore": 0.5,
     "type": "TRUE_FALSE",
     "options": ["True", "False"],
-    "answer": ["False"],
-    "explanation": "Only the first half of the statement is true. The primary visual area is located in the occipital cortex, thus the occipital (and parietal) channels are most sensitive."
+    "answer": ["True"],
+    "explanation": "Balanced electrode impedances are crucial for differential amplifiers. If impedances are unbalanced, common-mode noise will be converted into differential noise, reducing the amplifier's ability to reject it and contaminating the signal."
   },
   {
     "id": "B88",
     "part": "B",
-    "text": "The alpha rhythm can be observed by filtering the spontaneous EEG signal using a narrowband filter, with cutoff frequencies at 14 and 30 Hz (approximately)",
-    "maxScore": 1,
+    "text": "An artifact is a potential difference due to sources outside the brain.",
+    "maxScore": 0.5,
     "type": "TRUE_FALSE",
     "options": ["True", "False"],
-    "answer": ["False"],
-    "explanation": "With these cutoff frequencies we would observe the beta rhythm"
+    "answer": ["True"],
+    "explanation": "Artifacts in EEG refer to electrical signals picked up by electrodes that originate from non-cerebral sources, such as muscle activity (EMG), eye movements (EOG), heartbeats (ECG), or external electrical interference."
   },
   {
     "id": "B89",
     "part": "B",
-    "text": "Evoked potential is synonymous of Event-Related Potentials",
-    "maxScore": 1,
+    "text": "Contact impedance of the electrodes can be measured using a direct (non-alternating) current.",
+    "maxScore": 0.5,
     "type": "TRUE_FALSE",
     "options": ["True", "False"],
     "answer": ["False"],
-    "explanation": "Event related potentials include evoke potentials, as well as EEG responses to motor or cognitive events."
+    "explanation": "Electrode-skin contact impedance is frequency-dependent due to the capacitive nature of the skin-electrode interface. Therefore, it must be measured using an alternating current (AC) at frequencies relevant to the EEG recording (e.g., 10-100 Hz) to accurately reflect its effective impedance."
   },
   {
     "id": "B90",
     "part": "B",
-    "text": "Despite being more expensive, gold electrodes should be preferred to Ag/AgCl electrodes since they allow recording of extremely slow-changing EEG potentials.",
-    "maxScore": 1,
+    "text": "The EEG electrode F8 is located to the left of electrode F7.",
+    "maxScore": 0.5,
     "type": "TRUE_FALSE",
     "options": ["True", "False"],
     "answer": ["False"],
-    "explanation": "Gold electrodes are polarizable, thus the opposite is true"
+    "explanation": "In the International 10-20 System, odd-numbered electrodes (like F7) are on the left hemisphere, and even-numbered electrodes (like F8) are on the right hemisphere. Therefore, F8 is to the right of F7."
   },
   {
     "id": "B91",
     "part": "B",
-    "text": "The CMRR of a bipolar amplifier measures the ratio between the gain of their average with respect to the electrical ground and the gain of the potential difference between the input electrodes.",
-    "maxScore": 1,
+    "text": "An eyeblink produces an artifact which often interferes with the analysis of the beta band of the EEG.",
+    "maxScore": 0.5,
     "type": "TRUE_FALSE",
     "options": ["True", "False"],
     "answer": ["False"],
-    "explanation": "Numerator and denominator are swapped"
+    "explanation": "Eyeblink artifacts (EOG) are slow, large-amplitude waves with spectral content primarily in the delta and theta bands (below 10 Hz). They typically interfere with lower EEG frequency bands and usually do not significantly affect the higher-frequency beta band (14-30 Hz)."
   },
   {
     "id": "B92",
     "part": "B",
-    "text": "The measurement of two monopolar EEG channels requires four electrodes - two collecting the potentials fed to the non-inverting input of the differential amplifier, one providing the reference potential and one providing the ground potential.",
-    "maxScore": 1,
+    "text": "Sweating can affect the EEG, causing an increase of contact impedance and an increase of powerline noise.",
+    "maxScore": 0.5,
     "type": "TRUE_FALSE",
     "options": ["True", "False"],
-    "answer": ["True"],
-    "explanation": "TRUE"
+    "answer": ["False"],
+    "explanation": "Sweating typically *decreases* electrode-skin contact impedance due to increased skin conductivity. While sweating can introduce slow-wave artifacts, it doesn't cause an *increase* in impedance or directly increase powerline noise due to impedance changes."
   },
   {
     "id": "B93",
     "part": "B",
-    "text": "If the electrodes' contact impedance is not much lower than the amplifier's input impedance, the amplitude of the measured potential is closer to zero than the actual value.",
-    "maxScore": 1,
+    "text": "Notch filters effectively remove powerline noise because they reject all signals above their corner frequency.",
+    "maxScore": 0.5,
     "type": "TRUE_FALSE",
     "options": ["True", "False"],
-    "answer": ["True"],
-    "explanation": "True. In fact, the series of the electrode impedance and input impedance act as a voltage divider. Only if the former is much lower than the latter, the voltage at the amplifier's input is approximately equal to the actual biological potential."
+    "answer": ["False"],
+    "explanation": "Notch filters are *band-stop* filters that selectively reject a *narrow band* of frequencies around a specific central frequency (e.g., 50 or 60 Hz). This is distinct from a low-pass filter, which rejects signals *above* a certain cutoff (corner) frequency."
   },
   {
     "id": "B94",
     "part": "B",
-    "text": "EEG electrodes whose first letter of the label is \"C\" (e.g. \"Cz\") are located on the central region of the head, i.e. the region between the left and the right hemisphere",
-    "maxScore": 1,
+    "text": "The alpha rhythm is said to be synchronized when the amplitude of its oscillations increases.",
+    "maxScore": 0.5,
     "type": "TRUE_FALSE",
     "options": ["True", "False"],
-    "answer": ["False"],
-    "explanation": "The central region is above the central sulcus which divides the frontal and parietal lobes. The mesial region is above the interhemispheric scissure, and it is designated by a trailing \"z\" in EEG labels"
+    "answer": ["True"],
+    "explanation": "Synchronization in EEG refers to an increase in the amplitude and regularity of oscillations within a specific frequency band, reflecting a larger population of neurons firing in unison. An increase in alpha amplitude (e.g., with eyes closed) is a classic example of alpha synchronization."
   },
   {
     "id": "B95",
     "part": "B",
-    "text": "The artifact generated by eye movements can reach amplitudes up to 5µV in the EEG recordings",
-    "maxScore": 1,
+    "text": "Synchronized averaging of N EEG trials produces N values, each corresponding to the average value of the potential in each trial.",
+    "maxScore": 0.5,
     "type": "TRUE_FALSE",
     "options": ["True", "False"],
     "answer": ["False"],
-    "explanation": "EOG artifacts can be two orders of magnitude higher than that."
+    "explanation": "Synchronized averaging produces *one* average waveform, which represents the average potential across N trials at each time point. It does not produce N distinct average values for each trial."
   },
   {
     "id": "B96",
     "part": "B",
-    "text": "The heart activity is likely to contaminate an EEG recording if the reference electrode is not placed on the head.",
-    "maxScore": 1,
+    "text": "Evoked brain activity is phase-locked to the stimulus to which it is a response.",
+    "maxScore": 0.5,
     "type": "TRUE_FALSE",
     "options": ["True", "False"],
     "answer": ["True"],
-    "explanation": "TRUE"
+    "explanation": "Evoked activity (e.g., ERPs) is consistently time-locked and phase-locked to the onset of a stimulus, meaning its phase relative to the stimulus is consistent across repetitions, allowing it to be revealed by averaging."
   },
   {
     "id": "B97",
     "part": "B",
-    "text": "In ERP analysis, the EEG continuous recording must be segmented into epochs (trials) of fixed duration, each aligned to a repetition of the event",
-    "maxScore": 1,
+    "text": "Event-Related Desynchronization/Synchronization (ERD/S) quantify the amount of coupling between signals on two EEG channels.",
+    "maxScore": 0.5,
     "type": "TRUE_FALSE",
     "options": ["True", "False"],
-    "answer": ["True"],
-    "explanation": "TRUE"
+    "answer": ["False"],
+    "explanation": "ERD/S quantify relative changes in power within a *single* EEG rhythm or channel (e.g., a decrease in alpha power) in response to an event, compared to a baseline. They do not directly measure coupling *between* channels; measures like coherence or Granger causality do that."
   },
   {
     "id": "B98",
     "part": "B",
-    "text": "A negative peak in a ERP recorded on a specific subject with a latency of 108ms may still be named N100, if it matches the physiological phenomenon of the nominal N100 component.",
-    "maxScore": 1,
+    "text": "In Analog to Digital Conversion, the Nyquist frequency equals half of the sampling frequency.",
+    "maxScore": 0.5,
     "type": "TRUE_FALSE",
     "options": ["True", "False"],
     "answer": ["True"],
-    "explanation": "TRUE"
+    "explanation": "According to the Nyquist-Shannon sampling theorem, the Nyquist frequency (or Nyquist limit) is half of the sampling frequency. It represents the maximum frequency component that can be unambiguously captured in the digital signal."
   },
   {
     "id": "B99",
     "part": "B",
-    "text": "In an ERP, the response to a stimulus has a reduced amplitude when the SOA is too short.",
-    "maxScore": 1,
+    "text": "Appropriate application of an analog filter (i.e., before the analog signal is converted) may prevent saturation by removing high amplitude artifacts in specific frequency bands.",
+    "maxScore": 0.5,
     "type": "TRUE_FALSE",
     "options": ["True", "False"],
     "answer": ["True"],
-    "explanation": "TRUE"
+    "explanation": "Analog anti-aliasing filters are placed before the ADC to limit the signal's bandwidth and prevent high-frequency components (which may include large artifacts) from causing aliasing or exceeding the ADC's input range and leading to saturation."
   },
   {
     "id": "B100",
     "part": "B",
-    "text": "Induced activity is often examined by analyzing the envelope of the EEG in a relevant frequency band, i.e. by rectifying or squaring the pass-band filtered trials before averaging them.",
-    "maxScore": 1,
+    "text": "Quantization divides the input range of the ADC into (approximately) NBITS intervals, where NBITS is the number of bits of the ADC.",
+    "maxScore": 0.5,
     "type": "TRUE_FALSE",
     "options": ["True", "False"],
-    "answer": ["True"],
-    "explanation": "TRUE"
+    "answer": ["False"],
+    "explanation": "An N-bit ADC divides its input voltage range into 2^NBITS distinct quantization levels. Thus, it creates 2^NBITS - 1 intervals between these levels, not simply NBITS intervals."
   },
   {
     "id": "B101",
     "part": "B",
-    "text": "The reconstruction of an analog signal from its sampled version is equivalent to the sum a set of sinc() functions, one for each sample.",
-    "maxScore": 1,
+    "text": "The RMS (Root Mean Square) and the standard deviation of a zero-mean signal have the same value (assuming that the number of samples N approaches infinity).",
+    "maxScore": 0.5,
     "type": "TRUE_FALSE",
     "options": ["True", "False"],
     "answer": ["True"],
-    "explanation": "TRUE"
+    "explanation": "For a zero-mean signal, the mean squared value is equal to the variance. The RMS is the square root of the mean squared value, and the standard deviation is the square root of the variance. Therefore, for a zero-mean signal, RMS = standard deviation."
   },
   {
     "id": "B102",
     "part": "B",
-    "text": "Aliasing occurs when an analog signal is sampled using a limited input range of the ADC.",
-    "maxScore": 1,
+    "text": "When N trials containing only spontaneous EEG whose variance is σ², the variance of the synchronized average (σ_avg²) is σ²/N.",
+    "maxScore": 0.5,
     "type": "TRUE_FALSE",
     "options": ["True", "False"],
-    "answer": ["False"],
-    "explanation": "Aliasing occurs when an analog signal is sampled outside the conditions set by the Shannon's theorem. Clipping (saturation) occurs when the input range of the ADC is smaller than the amplitude of the input analog signal."
+    "answer": ["True"],
+    "explanation": "For independent noise sources like spontaneous EEG, the variance of the average of N trials decreases by a factor of N compared to the variance of a single trial (σ_avg² = σ²/N). This reduction in noise variance is a key benefit of synchronized averaging for extracting evoked potentials."
   },
   {
     "id": "B103",
     "part": "B",
-    "text": "In an ADC, quantization introduces a noise whose amplitude is proportional to the width of the quantization interval (VLSB): σquant = 1/√12 VLSB",
-    "maxScore": 1,
+    "text": "An IIR filter can be designed to have 'linear phase' to avoid introducing time-domain distortions in the output signal waveform.",
+    "maxScore": 0.5,
     "type": "TRUE_FALSE",
     "options": ["True", "False"],
-    "answer": ["True"],
-    "explanation": "TRUE"
+    "answer": ["False"],
+    "explanation": "IIR (Infinite Impulse Response) filters generally do not have linear phase response, which means they introduce phase distortion (different group delays for different frequencies). Linear phase is a characteristic of FIR (Finite Impulse Response) filters, which is desirable for preserving waveform shape."
   },
   {
     "id": "B104",
     "part": "B",
-    "text": "The Average Rectified Value (ARV) is a measure of the amplitude of a signal, and it is obtained by summing the absolute values of all samples and dividing the result by the number of samples.",
-    "maxScore": 1,
+    "text": "The spectral leakage phenomenon is observed, for instance, when comparing the spectrum of a signal with the spectrum of a short section of the same signal.",
+    "maxScore": 0.5,
     "type": "TRUE_FALSE",
     "options": ["True", "False"],
     "answer": ["True"],
-    "explanation": "TRUE"
+    "explanation": "Spectral leakage occurs when the analyzed signal segment (e.g., a short section) is not an integer number of periods of its frequency components, causing energy to spread across the frequency spectrum rather than being confined to discrete bins."
   },
   {
     "id": "B105",
     "part": "B",
-    "text": "The variance of a signal is estimated by summing the square of all deviations of the N sample values from the sample mean, and then dividing by (N-1)",
-    "maxScore": 1,
+    "text": "The Butterworth filter is a design method in the family of FIR (Finite Impulse Response) filters.",
+    "maxScore": 0.5,
     "type": "TRUE_FALSE",
     "options": ["True", "False"],
-    "answer": ["True"],
-    "explanation": "TRUE"
+    "answer": ["False"],
+    "explanation": "Butterworth filters are a common type of Infinite Impulse Response (IIR) filter, known for their flat magnitude response in the passband."
   },
   {
     "id": "B106",
     "part": "B",
-    "text": "The frequency spectrum of white noise is flat, i.e. it has the same power at any frequency.",
-    "maxScore": 1,
+    "text": "The amplitude of sensorimotor rhythms can be voluntarily modulated through the exercise of motor imagery to build a cursor control based on a BCI.",
+    "maxScore": 0.5,
     "type": "TRUE_FALSE",
     "options": ["True", "False"],
     "answer": ["True"],
-    "explanation": "TRUE"
+    "explanation": "Motor imagery (imagining movement without actual execution) is a core paradigm in many Brain-Computer Interfaces (BCIs). It allows users to volitionally modulate sensorimotor rhythms (e.g., mu and beta bands), and these modulations can be translated into control signals, such as moving a cursor on a screen."
   },
   {
     "id": "B107",
     "part": "B",
-    "text": "The Short Time Fourier Transform (STFT) is a simple method to estimate a spectrogram, i.e. the representation of the time-varying spectrum of a non-stationary signal.",
-    "maxScore": 1,
+    "text": "The 'waxing and waning' of the alpha rhythm is a change of amplitude occurring about 10 times a second.",
+    "maxScore": 0.5,
     "type": "TRUE_FALSE",
     "options": ["True", "False"],
-    "answer": ["True"],
-    "explanation": "TRUE"
+    "answer": ["False"],
+    "explanation": "The alpha rhythm itself oscillates at around 10 Hz. 'Waxing and waning' refers to the slower, rhythmic *modulation* of the alpha amplitude, which occurs at a much lower frequency (e.g., 1-2 Hz), not 10 times a second."
   },
   {
     "id": "B108",
     "part": "B",
-    "text": "The roll-off of a filter is the slope of its frequency response in the transition band. It is high when the transition band is narrow.",
-    "maxScore": 1,
+    "text": "The CMRR (Common-Mode Rejection Ratio) is usually expressed in decibel (dB) and high values characterize better amplifiers.",
+    "maxScore": 0.5,
     "type": "TRUE_FALSE",
     "options": ["True", "False"],
     "answer": ["True"],
-    "explanation": "TRUE"
+    "explanation": "CMRR is a crucial metric for differential amplifiers, quantifying their ability to reject common-mode noise (e.g., powerline interference) while amplifying the desired differential signal. A higher CMRR (in dB) indicates superior noise rejection."
   },
   {
     "id": "B109",
     "part": "B",
-    "text": "A FIR filter needs to be of a higher order to achieve the same quality specifications than a IIR filter.",
-    "maxScore": 1,
+    "text": "The difference of contact impedances of electrodes should be small compared to the input difference of the differential amplifier, otherwise the resulting unbalance compromises its common-mode rejection capability.",
+    "maxScore": 0.5,
     "type": "TRUE_FALSE",
     "options": ["True", "False"],
     "answer": ["True"],
-    "explanation": "TRUE"
+    "explanation": "Balanced electrode impedances are essential for optimal common-mode rejection in differential amplifiers. A significant difference in contact impedances between the active and reference electrodes can convert common-mode noise into differential noise, reducing the amplifier's effectiveness."
   },
   {
     "id": "B110",
     "part": "B",
-    "text": "In a P300-based BCI, the user subjectively assigns saliency (relevance) to a stimulus so that their brain produces a P300 ERP every time the stimulus is administered",
-    "maxScore": 1,
+    "text": "An artifact is a potential difference due to sources outside the brain.",
+    "maxScore": 0.5,
     "type": "TRUE_FALSE",
     "options": ["True", "False"],
     "answer": ["True"],
-    "explanation": "TRUE"
+    "explanation": "In neurophysiological recordings, artifacts refer to unwanted electrical signals that originate from non-brain sources, such as muscle activity (EMG), eye movements (EOG), heartbeats (ECG), or external electrical interference."
   },
   {
     "id": "B111",
     "part": "B",
-    "text": "The proper (visual) alpha rhythm is modulated (synchronized, desynchronized) by opening and closing the eyes. This phenomenon is best observed on the frontal EEG channels.",
-    "maxScore": 1,
+    "text": "Contact impedance of the electrodes can be measured using a direct (non-alternating) current.",
+    "maxScore": 0.5,
     "type": "TRUE_FALSE",
     "options": ["True", "False"],
     "answer": ["False"],
-    "explanation": "Only the first half of the statement is true. The primary visual area is located in the occipital cortex, thus the occipital (and parietal) channels are most sensitive."
+    "explanation": "Electrode-skin contact impedance is frequency-dependent due to the capacitive properties of the skin. Therefore, it must be measured using an alternating current (AC) at frequencies relevant to the EEG signal to accurately reflect its effective impedance during recording."
   },
   {
     "id": "B112",
     "part": "B",
-    "text": "The alpha rhythm can be observed by filtering the spontaneous EEG signal using a narrowband filter, with cutoff frequencies at 14 and 30 Hz (approximately)",
-    "maxScore": 1,
+    "text": "The EEG electrode F8 is located to the left of electrode F7.",
+    "maxScore": 0.5,
     "type": "TRUE_FALSE",
     "options": ["True", "False"],
     "answer": ["False"],
-    "explanation": "With these cutoff frequencies we would observe the beta rhythm"
+    "explanation": "In the International 10-20 System, electrodes with odd numbers (e.g., F7) are on the left hemisphere, and electrodes with even numbers (e.g., F8) are on the right hemisphere. Therefore, F8 is to the right of F7."
   },
   {
     "id": "B113",
     "part": "B",
-    "text": "Evoked potential is synonymous of Event-Related Potentials",
-    "maxScore": 1,
+    "text": "An eyeblink produces an artifact which often interferes with the analysis of the beta band of the EEG.",
+    "maxScore": 0.5,
     "type": "TRUE_FALSE",
     "options": ["True", "False"],
     "answer": ["False"],
-    "explanation": "Event related potentials include evoke potentials, as well as EEG responses to motor or cognitive events."
+    "explanation": "Eyeblink artifacts (EOG) are characterized by large, slow-wave potentials with spectral content primarily below 10 Hz (delta and theta bands). They primarily interfere with lower EEG frequencies and generally do not significantly affect the higher-frequency beta band (14-30 Hz)."
   },
   {
     "id": "B114",
     "part": "B",
-    "text": "Despite being more expensive, gold electrodes should be preferred to Ag/AgCl electrodes since they allow recording of extremely slow-changing EEG potentials.",
-    "maxScore": 1,
+    "text": "Sweating can affect the EEG, causing an increase of contact impedance and an increase of powerline noise.",
+    "maxScore": 0.5,
     "type": "TRUE_FALSE",
     "options": ["True", "False"],
     "answer": ["False"],
-    "explanation": "Gold electrodes are polarizable, thus the opposite is true"
+    "explanation": "Sweating generally *decreases* electrode-skin contact impedance due to increased conductivity. While sweat can introduce slow-wave artifacts (below 0.5 Hz), it does not typically cause an *increase* in impedance or directly increase powerline noise due to impedance changes."
   },
   {
     "id": "B115",
     "part": "B",
-    "text": "The CMRR of a bipolar amplifier measures the ratio between the gain of their average with respect to the electrical ground and the gain of the potential difference between the input electrodes.",
-    "maxScore": 1,
+    "text": "Notch filters effectively remove powerline noise because they reject all signals above their corner frequency.",
+    "maxScore": 0.5,
     "type": "TRUE_FALSE",
     "options": ["True", "False"],
     "answer": ["False"],
-    "explanation": "Numerator and denominator are swapped"
+    "explanation": "Notch filters are specific band-stop filters designed to reject a *very narrow band* of frequencies (e.g., 50 or 60 Hz powerline noise) while preserving frequencies outside this band. This is different from a low-pass filter, which rejects all signals *above* a specified corner frequency."
   },
   {
     "id": "B116",
     "part": "B",
-    "text": "The measurement of two monopolar EEG channels requires four electrodes - two collecting the potentials fed to the non-inverting input of the differential amplifier, one providing the reference potential and one providing the ground potential.",
-    "maxScore": 1,
+    "text": "The alpha rhythm is said to be synchronized when the amplitude of its oscillations increases.",
+    "maxScore": 0.5,
     "type": "TRUE_FALSE",
     "options": ["True", "False"],
     "answer": ["True"],
-    "explanation": "TRUE"
+    "explanation": "Synchronization in EEG refers to an increase in the amplitude and often regularity of oscillations within a specific frequency band, reflecting a larger population of neurons firing in a more coherent manner. An increase in alpha amplitude (e.g., with eyes closed) is a classic example of alpha synchronization."
   },
   {
     "id": "B117",
     "part": "B",
-    "text": "If the electrodes' contact impedance is not much lower than the amplifier's input impedance, the amplitude of the measured potential is closer to zero than the actual value.",
-    "maxScore": 1,
+    "text": "Synchronized averaging of N EEG trials produces N values, each corresponding to the average value of the potential in each trial.",
+    "maxScore": 0.5,
     "type": "TRUE_FALSE",
     "options": ["True", "False"],
-    "answer": ["True"],
-    "explanation": "True. In fact, the series of the electrode impedance and input impedance act as a voltage divider. Only if the former is much lower than the latter, the voltage at the amplifier's input is approximately equal to the actual biological potential."
+    "answer": ["False"],
+    "explanation": "Synchronized averaging produces *one* average waveform. Each point on this averaged waveform is the mean of the corresponding time point across all N trials, not N individual average values for each trial."
   },
   {
     "id": "B118",
     "part": "B",
-    "text": "The proper (visual) alpha rhythm is modulated (synchronized, desynchronized) by opening and closing the eyes. This phenomenon is best observed on the frontal EEG channels.",
-    "maxScore": 1,
+    "text": "Evoked brain activity is phase-locked to the stimulus to which it is a response.",
+    "maxScore": 0.5,
     "type": "TRUE_FALSE",
     "options": ["True", "False"],
-    "answer": ["False"],
-    "explanation": "Only the first half of the statement is true. The primary visual area is located in the occipital cortex, thus the occipital (and parietal) channels are most sensitive."
+    "answer": ["True"],
+    "explanation": "Evoked brain activity refers to neural responses (like ERPs) that are consistently time-locked and phase-locked to the onset of a stimulus. This consistent phase relationship allows them to be extracted by averaging across many trials."
   },
   {
     "id": "B119",
     "part": "B",
-    "text": "The powerline noise affects a very narrow frequency band of the recorded signal around 50 Hz (in Europe) and odd multiples of (150 Hz, 250 Hz, ...).",
-    "maxScore": 1,
+    "text": "Event-Related Desynchronization/Synchronization (ERD/S) quantify the amount of coupling between signals on two EEG channels.",
+    "maxScore": 0.5,
     "type": "TRUE_FALSE",
     "options": ["True", "False"],
-    "answer": ["True"],
-    "explanation": "TRUE"
+    "answer": ["False"],
+    "explanation": "ERD/S quantify relative changes in power within a *single* EEG rhythm or channel (e.g., a decrease or increase in the alpha band's power) in response to an event, compared to a baseline. Measures like coherence or Granger causality are used to quantify coupling *between* channels."
   },
   {
     "id": "B120",
     "part": "B",
-    "text": "Movements of the subject's head produces EEG artifacts mainly in the lowest part of the spectrum.",
-    "maxScore": 1,
+    "text": "In Analog to Digital Conversion, the Nyquist frequency equals half of the sampling frequency.",
+    "maxScore": 0.5,
     "type": "TRUE_FALSE",
     "options": ["True", "False"],
     "answer": ["True"],
-    "explanation": "Movement of the subject's head may produce slow artifacts on the EEG recording, whose waveform is closely related to the timecourse of the movement"
+    "explanation": "The Nyquist frequency (or Nyquist limit) is a fundamental concept in digital signal processing, defined as half of the sampling frequency. It represents the maximum frequency component that can be accurately captured by the sampling process without aliasing."
   },
   {
     "id": "B121",
     "part": "B",
-    "text": "When recording EPs, the spontaneous EEG is to be considered a noise that completely masks the EPs on the recorded waveform.",
-    "maxScore": 1,
+    "text": "Appropriate application of an analog filter (i.e., before the analog signal is converted) may prevent saturation by removing high amplitude artifacts in specific frequency bands.",
+    "maxScore": 0.5,
     "type": "TRUE_FALSE",
     "options": ["True", "False"],
     "answer": ["True"],
-    "explanation": "True. With very rare exceptions (mostly in the field of pathology) EPs are one or more orders of magnitude smaller than the spontaneous EEG."
+    "explanation": "Analog anti-aliasing filters are applied before analog-to-digital conversion to limit the signal's bandwidth and prevent high-amplitude frequency components (including large artifacts) from exceeding the ADC's input range and causing saturation or clipping."
   },
   {
     "id": "B122",
     "part": "B",
-    "text": "In ERP analysis, 'trials' are portions of the continuous EEG recording that start exactly at the time when a sensory stimulus was delivered",
-    "maxScore": 1,
+    "text": "Quantization divides the input range of the ADC into (approximately) NBITS intervals, where NBITS is the number of bits of the ADC.",
+    "maxScore": 0.5,
     "type": "TRUE_FALSE",
     "options": ["True", "False"],
     "answer": ["False"],
-    "explanation": "The start of a trial usually precedes the time of the event, so that a pre-stimulus baseline period can be analyzed. Events are not necessarily sensory stimulations."
+    "explanation": "An N-bit ADC divides its input voltage range into 2^NBITS distinct quantization levels (or steps). These levels define 2^NBITS - 1 intervals, not simply NBITS intervals."
   },
   {
     "id": "B123",
     "part": "B",
-    "text": "The N20 component of an EP occurs before the stimulus (negative latency) while the P300 occurs after the stimulus (positive latency).",
-    "maxScore": 1,
+    "text": "The RMS (Root Mean Square) and the standard deviation of a zero-mean signal have the same value (assuming that the number of samples N approaches infinity).",
+    "maxScore": 0.5,
     "type": "TRUE_FALSE",
     "options": ["True", "False"],
-    "answer": ["False"],
-    "explanation": "'N' and 'P' indicate the sign of the amplitude of the ERP (Negative and Positive, respectively), not the latency."
+    "answer": ["True"],
+    "explanation": "For a zero-mean signal, the variance is the mean of the squared values (average power). The standard deviation is the square root of the variance. The RMS is the square root of the mean of the squared values. Therefore, for a zero-mean signal, RMS is equal to the standard deviation."
   },
   {
     "id": "B124",
     "part": "B",
-    "text": "Event-Related Desynchronization/Synchronization (ERD/S) quantify phase-locked brain activity in response to an event",
-    "maxScore": 1,
+    "text": "The synchronized average of N trials containing only spontaneous EEG whose RMS_trial = σ² is a signal with RMS_avg = σ²/N.",
+    "maxScore": 0.5,
     "type": "TRUE_FALSE",
     "options": ["True", "False"],
-    "answer": ["False"],
-    "explanation": "Event-Related Desynchronization/Synchronization (ERD/S) quantify relative changes of the power of the EEG rhythm in a predefined frequency range; phase locked activity is estimated using the synchronized averaging."
+    "answer": ["True"],
+    "explanation": "If RMS_trial = σ (standard deviation), then the variance is σ². The variance of the average of N independent trials is σ²/N. So, the RMS of the average (which is the square root of the variance of the average) would be σ/√N. However, the statement implies RMS_trial is already a variance-like quantity (σ²). If RMS_trial = σ², then RMS_avg = √(σ²/N) = σ/√N. This statement is only true if RMS_trial is interpreted as variance and RMS_avg is interpreted as variance of the average, which is commonly represented as σ²/N."
   },
   {
     "id": "B125",
     "part": "B",
-    "text": "The reconstruction of an analog signal from its sampled version is equivalent to the linear interpolation of the samples.",
-    "maxScore": 1,
+    "text": "An IIR filter can be designed to have 'linear phase' so that they do not introduce time-domain distortions in the waveform of the output signal.",
+    "maxScore": 0.5,
     "type": "TRUE_FALSE",
     "options": ["True", "False"],
-    "answer": ["True"],
-    "explanation": "The reconstruction of an analog signal from its sampled version is equivalent to the sum a set of sinc() functions, one for each sample."
+    "answer": ["False"],
+    "explanation": "IIR (Infinite Impulse Response) filters generally do not exhibit linear phase response. Linear phase is a desirable characteristic primarily found in FIR (Finite Impulse Response) filters, as it ensures that all frequency components are delayed by the same amount, thus avoiding waveform distortion."
   },
   {
     "id": "B126",
     "part": "B",
-    "text": "Aliasing occurs when an artifact corrupts an otherwise healthy EEG recording.",
-    "maxScore": 1,
+    "text": "The spectral leakage phenomenon is observed, for instance, when comparing the spectrum of a signal with the spectrum of a short section of the same signal.",
+    "maxScore": 0.5,
     "type": "TRUE_FALSE",
     "options": ["True", "False"],
-    "answer": ["False"],
-    "explanation": "Aliasing occurs when the sampling frequency of an analog signal is lower than twice the frequency of any spectral component of the signal"
+    "answer": ["True"],
+    "explanation": "Spectral leakage occurs when the segment of a signal being analyzed by a Fourier Transform does not contain an integer number of periods of its frequency components. This truncation creates discontinuities that lead to energy from a specific frequency 'leaking' into adjacent frequency bins, smearing the spectrum."
   },
   {
     "id": "B127",
     "part": "B",
-    "text": "In an ADC, quantization introduces a noise whose amplitude is proportional to the width of the quantization interval (VLSB): σquant = 1/√12 VLSB",
-    "maxScore": 1,
+    "text": "The Butterworth filter is a design method in the family of FIR (Finite Impulse Response) filters.",
+    "maxScore": 0.5,
     "type": "TRUE_FALSE",
     "options": ["True", "False"],
-    "answer": ["True"],
-    "explanation": "TRUE"
+    "answer": ["False"],
+    "explanation": "Butterworth filters are a common type of Infinite Impulse Response (IIR) filter. They are characterized by a maximally flat frequency response in the passband."
   },
   {
     "id": "B128",
     "part": "B",
-    "text": "Potentials recorded by electrodes which are at a close distance on the scalp are mutually independent.",
-    "maxScore": 1,
-    "type": "TRUE_FALSE",
-    "options": ["True", "False"],
-    "answer": ["False"],
-    "explanation": "Due to the volume conduction, there's a strong correlation between scalp potentials recorded at a close spatial distance."
-  },
-  {
-    "id": "B129",
-    "part": "B",
-    "text": "A neuron's firing rate tuning curve for movement direction shows the spike trains obtained - for different trials - from a neuron of the primary motor cortex in correspondence to an arm movement (panel A), and the firing rate f of the same neuron as a function of the angle s of the same movement direction (panel B). The maximum neural response is obtained for a movement direction with an angle of 350 degrees.",
-    "maxScore": 1,
-    "type": "TRUE_FALSE",
-    "options": ["True", "False"],
-    "answer": ["False"],
-    "explanation": "The maximum neural response is obtained for a movement direction with an angle of 150 degrees."
-  },
-  {
-    "id": "B130",
-    "part": "B",
-    "text": "In reference to the previous figure: from the curve, I can conclude that this neuron is tuned to be more active in correspondence to a specific movement direction.",
-    "maxScore": 1,
+    "text": "The amplitude of sensorimotor rhythms can be voluntarily modulated through the exercise of motor imagery, to build a cursor control based on a BCI.",
+    "maxScore": 0.5,
     "type": "TRUE_FALSE",
     "options": ["True", "False"],
     "answer": ["True"],
-    "explanation": ""
-  },
-  {
-    "id": "B131",
-    "part": "B",
-    "text": "In reference to the previous figure (question 10): the firing rate f in panel B was computed as the average of the neural response function across trials.",
-    "maxScore": 1,
-    "type": "TRUE_FALSE",
-    "options": ["True", "False"],
-    "answer": ["True"],
-    "explanation": ""
-  },
-  {
-    "id": "B132",
-    "part": "B",
-    "text": "A ROC curve describes a threshold classification between two conditions (stimuli) at different levels of coherence of the stimulation (different curves). The best curve is the one closer to the diagonal.",
-    "maxScore": 1,
-    "type": "TRUE_FALSE",
-    "options": ["True", "False"],
-    "answer": ["False"],
-    "explanation": "The diagonal corresponds to a random binary classification (chance level)."
-  },
-  {
-    "id": "B133",
-    "part": "B",
-    "text": "In reference to the previous ROC curve: the Area Under the Curve (AUC) for each level of coherence is proportional to the discriminability of the two conditions.",
-    "maxScore": 1,
-    "type": "TRUE_FALSE",
-    "options": ["True", "False"],
-    "answer": ["True"],
-    "explanation": ""
-  },
-  {
-    "id": "B134",
-    "part": "B",
-    "text": "In reference to the previous ROC curve: by considering only the true positives and false positives, and neglecting the true negatives and false negatives, we miss part of the results of the classification.",
-    "maxScore": 1,
-    "type": "TRUE_FALSE",
-    "options": ["True", "False"],
-    "answer": ["False"],
-    "explanation": "True negatives and false negatives are related to false positives and true positives, respectively. Therefore, we are not neglecting any result of the classification."
-  },
-  {
-    "id": "B135",
-    "part": "B",
-    "text": "The Spectral Matrix computed for any given pair of time series is always symmetrical.",
-    "maxScore": 1,
-    "type": "TRUE_FALSE",
-    "options": ["True", "False"],
-    "answer": ["True"],
-    "explanation": ""
-  },
-  {
-    "id": "B136",
-    "part": "B",
-    "text": "Given two time series x and y, the Granger Causality Index Gxy ∈[-∞, ∞].",
-    "maxScore": 1,
-    "type": "TRUE_FALSE",
-    "options": ["True", "False"],
-    "answer": ["False"],
-    "explanation": "The Granger Causality Index Gx→y ∈[0,∞]."
-  },
-  {
-    "id": "B137",
-    "part": "B",
-    "text": "When we have a limited amount of data, the Partial Directed Coherence (PDC) is the most accurate estimator of causality in the statistical sense.",
-    "maxScore": 1,
-    "type": "TRUE_FALSE",
-    "options": ["True", "False"],
-    "answer": ["False"],
-    "explanation": "In the event of data paucity, PDC returns inaccurate results due to the low ratio between data samples and model parameters."
-  },
-  {
-    "id": "B138",
-    "part": "B",
-    "text": "The Ordinary Coherence is defined in the time domain.",
-    "maxScore": 1,
-    "type": "TRUE_FALSE",
-    "options": ["True", "False"],
-    "answer": ["False"],
-    "explanation": "It is defined in the spectral domain."
-  },
-  {
-    "id": "B139",
-    "part": "B",
-    "text": "A multivariate approach to the estimation of brain networks can always prevent the occurrence of the common source problem.",
-    "maxScore": 1,
-    "type": "TRUE_FALSE",
-    "options": ["True", "False"],
-    "answer": ["False"],
-    "explanation": "Since there is no method able to simultaneously measure all the active sources in the brain, the problem of the common (hidden) source can be mitigated, but not entirely solved, by a multivariate approach."
-  },
-  {
-    "id": "B140",
-    "part": "B",
-    "text": "In a graph, when no path links two nodes, the distance between them is infinite.",
-    "maxScore": 1,
-    "type": "TRUE_FALSE",
-    "options": ["True", "False"],
-    "answer": ["True"],
-    "explanation": ""
-  },
-  {
-    "id": "B141",
-    "part": "B",
-    "text": "In a graph, the Density ∈[0, 1].",
-    "maxScore": 1,
-    "type": "TRUE_FALSE",
-    "options": ["True", "False"],
-    "answer": ["True"],
-    "explanation": ""
-  },
-  {
-    "id": "B142",
-    "part": "B",
-    "text": "The Global Efficiency is normalized to the number N of nodes in the graph.",
-    "maxScore": 1,
-    "type": "TRUE_FALSE",
-    "options": ["True", "False"],
-    "answer": ["False"],
-    "explanation": "The Global Efficiency is normalized to the number of edges N(N-1) for directed graphs and N(N-1)/2 for undirected graphs."
-  },
-  {
-    "id": "B143",
-    "part": "B",
-    "text": "The roll-off of a filter is the slope of its frequency response in the transition band. It is high when the transition band is narrow.",
-    "maxScore": 1,
-    "type": "TRUE_FALSE",
-    "options": ["True", "False"],
-    "answer": ["True"],
-    "explanation": "TRUE"
-  },
-  {
-    "id": "B144",
-    "part": "B",
-    "text": "The Short Time Fourier Transform (STFT) is a simple method to estimate a spectrogram, i.e. the representation of the time-varying spectrum of a non-stationary signal.",
-    "maxScore": 1,
-    "type": "TRUE_FALSE",
-    "options": ["True", "False"],
-    "answer": ["True"],
-    "explanation": "TRUE"
-  },
-  {
-    "id": "B145",
-    "part": "B",
-    "text": "The N20 component of an EP occurs before the stimulus (negative latency) while the P300 occurs after the stimulus (positive latency).",
-    "maxScore": 1,
-    "type": "TRUE_FALSE",
-    "options": ["True", "False"],
-    "answer": ["False"],
-    "explanation": "'N' and 'P' indicate the sign of the amplitude of the ERP (Negative and Positive, respectively), not the latency."
-  },
-  {
-    "id": "B146",
-    "part": "B",
-    "text": "Event-Related Desynchronization/Synchronization (ERD/S) quantify phase-locked brain activity in response to an event",
-    "maxScore": 1,
-    "type": "TRUE_FALSE",
-    "options": ["True", "False"],
-    "answer": ["False"],
-    "explanation": "Event-Related Desynchronization/Synchronization (ERD/S) quantify relative changes of the power of the EEG rhythm in a predefined frequency range; phase locked activity is estimated using the synchronized averaging."
-  },
-  {
-    "id": "B147",
-    "part": "B",
-    "text": "In ERP analysis, 'trials' are portions of the continuous EEG recording that start exactly at the time when a sensory stimulus was delivered",
-    "maxScore": 1,
-    "type": "TRUE_FALSE",
-    "options": ["True", "False"],
-    "answer": ["False"],
-    "explanation": "The start of a trial usually precedes the time of the event, so that a pre-stimulus baseline period can be analyzed. Events are not necessarily sensory stimulations."
-  },
-  {
-    "id": "B148",
-    "part": "B",
-    "text": "The CMRR of an EEG amplifier should be higher than 90 dB",
-    "maxScore": 1,
-    "type": "TRUE_FALSE",
-    "options": ["True", "False"],
-    "answer": ["True"],
-    "explanation": ""
-  },
-  {
-    "id": "B149",
-    "part": "B",
-    "text": "A 'run' is a portion of recording in an experimental protocol that contains no breaks, i.e. all samples contained therein have been acquired 1/fs seconds after the previous (fs being the sampling frequency)",
-    "maxScore": 1,
-    "type": "TRUE_FALSE",
-    "options": ["True", "False"],
-    "answer": ["True"],
-    "explanation": "TRUE"
-  },
-  {
-    "id": "B150",
-    "part": "B",
-    "text": "EEG signals recorded in monopolar configuration can be re-referenced to the Common Average Reference (CAR), by subtracting from each channel the instantaneous average of all channels. In ideal conditions, this would approximate taking the reference potential at infinity.",
-    "maxScore": 1,
-    "type": "TRUE_FALSE",
-    "options": ["True", "False"],
-    "answer": ["True"],
-    "explanation": "TRUE"
-  },
-  {
-    "id": "B151",
-    "part": "B",
-    "text": "The powerline noise affects a very narrow frequency band of the recorded signal around 50 Hz (in Europe) and odd multiples of (150 Hz, 250 Hz, ...).",
-    "maxScore": 1,
-    "type": "TRUE_FALSE",
-    "options": ["True", "False"],
-    "answer": ["True"],
-    "explanation": "TRUE"
-  },
-  {
-    "id": "B152",
-    "part": "B",
-    "text": "The RMS and the ARV of a zero-mean signal have the same value (assume that the number of samples N → ∞).",
-    "maxScore": 1,
-    "type": "TRUE_FALSE",
-    "options": ["True", "False"],
-    "answer": ["False"],
-    "explanation": "For a zero-mean signal, the RMS equals the standard deviation σ of a zero-mean signal."
-  },
-  {
-    "id": "B153",
-    "part": "B",
-    "text": "An EEG recording is said to be bipolar when it comprises exactly two channels",
-    "maxScore": 1,
-    "type": "TRUE_FALSE",
-    "options": ["True", "False"],
-    "answer": ["False"],
-    "explanation": "In bipolar EEG recordings, each channel is the difference of potential between two (adjacent) electrodes. The number of channels is not relevant"
-  },
-  {
-    "id": "B154",
-    "part": "B",
-    "text": "The Shannon's theorem states that a continuous signal can be properly sampled only if it does not contain frequency components above the sampling rate.",
-    "maxScore": 1,
-    "type": "TRUE_FALSE",
-    "options": ["True", "False"],
-    "answer": ["False"],
-    "explanation": "The signal must not contain spectral components above half the sampling rate (Nyquist frequency)"
-  },
-  {
-    "id": "B155",
-    "part": "B",
-    "text": "Movements of the subject's head produces artifacts only in the gamma band.",
-    "maxScore": 1,
-    "type": "TRUE_FALSE",
-    "options": ["True", "False"],
-    "answer": ["False"],
-    "explanation": "Movement of the subject's head may produce slow artifacts on the EEG recording, whose waveform is closely related to the timecourse of the movement"
-  },
-  {
-    "id": "B156",
-    "part": "B",
-    "text": "Evoked Potentials are deflection of the EEG signal following the presentation of a sensory input.",
-    "maxScore": 1,
-    "type": "TRUE_FALSE",
-    "options": ["True", "False"],
-    "answer": ["True"],
-    "explanation": "TRUE"
-  },
-  {
-    "id": "B157",
-    "part": "B",
-    "text": "The frequency spectrum of white noise is flat, i.e. it has the same power at any frequency.",
-    "maxScore": 1,
-    "type": "TRUE_FALSE",
-    "options": ["True", "False"],
-    "answer": ["True"],
-    "explanation": "TRUE"
-  },
-  {
-    "id": "B158",
-    "part": "B",
-    "text": "The mu rhythm and the alpha rhythm are EEG components that differ for their fundamental frequency of oscillation",
-    "maxScore": 1,
-    "type": "TRUE_FALSE",
-    "options": ["True", "False"],
-    "answer": ["False"],
-    "explanation": "They both oscillate around 10 Hz."
-  },
-  {
-    "id": "B159",
-    "part": "B",
-    "text": "In an ADC, quantization introduces a noise whose amplitude is proportional to the width of the quantization interval (VLSB): σquant = 1/√12 VLSB",
-    "maxScore": 1,
-    "type": "TRUE_FALSE",
-    "options": ["True", "False"],
-    "answer": ["True"],
-    "explanation": "TRUE"
-  },
-  {
-    "id": "B160",
-    "part": "B",
-    "text": "When recording EPs, the spontaneous EEG is to be considered a noise that completely masks the EPs on the recorded waveform.",
-    "maxScore": 1,
-    "type": "TRUE_FALSE",
-    "options": ["True", "False"],
-    "answer": ["True"],
-    "explanation": "True. With very rare exceptions (mostly in the field of pathology) EPs are one or more orders of magnitude smaller than the spontaneous EEG."
-  },
-  {
-    "id": "B161",
-    "part": "B",
-    "text": "In a P300-based BCI, the user subjectively assigns saliency (relevance) to a stimulus so that their brain produces a P300 ERP every time the stimulus is administered",
-    "maxScore": 1,
-    "type": "TRUE_FALSE",
-    "options": ["True", "False"],
-    "answer": ["True"],
-    "explanation": "TRUE"
-  },
-  {
-    "id": "B162",
-    "part": "B",
-    "text": "The contact impedances of a pair of electrodes should be large compared to the input impedance of the differential amplifier connected to them, otherwise the amplitude of the signal would be reduced as effect of the potential divider.",
-    "maxScore": 1,
-    "type": "TRUE_FALSE",
-    "options": ["True", "False"],
-    "answer": ["False"],
-    "explanation": "False, the contact impedances must be lower than the amplifier's input impedance, mainly to help keeping the circuit balanced (higher CMRR)"
-  },
-  {
-    "id": "B163",
-    "part": "B",
-    "text": "A FIR filter needs to be of a higher order to achieve the same quality specifications than a IIR filter.",
-    "maxScore": 1,
-    "type": "TRUE_FALSE",
-    "options": ["True", "False"],
-    "answer": ["True"],
-    "explanation": "TRUE"
-  },
-  {
-    "id": "B164",
-    "part": "B",
-    "text": "Event-Related Desynchronization/ Synchronization (ERD/S) quantify the amount of coupling between signals on two EEG channels.",
-    "maxScore": 1,
-    "type": "TRUE_FALSE",
-    "options": ["True", "False"],
-    "answer": ["False"],
-    "explanation": "ERD/S quantify changes of the power of EEG relative to a baseline period"
-  },
-  {
-    "id": "B165",
-    "part": "B",
-    "text": "ARVx = √(1/N) Σ(x[i])², where the sum extends on the N samples of the signal x[i]",
-    "maxScore": 1,
-    "type": "TRUE_FALSE",
-    "options": ["True", "False"],
-    "answer": ["False"],
-    "explanation": "ARVx = (1/N) Σ|x[i]|, ARV being the acronym of Average Rectified Value"
-  },
-  {
-    "id": "B166",
-    "part": "B",
-    "text": "Aliasing occurs when an artifact corrupts an otherwise healthy EEG recording.",
-    "maxScore": 1,
-    "type": "TRUE_FALSE",
-    "options": ["True", "False"],
-    "answer": ["False"],
-    "explanation": "Aliasing occurs when the sampling frequency of an analog signal is lower than twice the frequency of any spectral component of the signal"
-  },
-  {
-    "id": "B167",
-    "part": "B",
-    "text": "Potentials recorded by electrodes which are at a close distance on the scalp are mutually independent.",
-    "maxScore": 1,
-    "type": "TRUE_FALSE",
-    "options": ["True", "False"],
-    "answer": ["False"],
-    "explanation": "Due to the volume conduction, there's a strong correlation between scalp potentials recorded at a close spatial distance."
-  },
-  {
-    "id": "B168",
-    "part": "B",
-    "text": "The tuning curve showing the spike trains obtained - for different trials - from a neuron of the primary motor cortex in correspondence to an arm movement (panel A), and the firing rate f of the same neuron as a function of the angle s of the same movement direction (panel B). The maximum neural response is obtained for a movement direction with an angle of 350 degrees.",
-    "maxScore": 1,
-    "type": "TRUE_FALSE",
-    "options": ["True", "False"],
-    "answer": ["False"],
-    "explanation": "The maximum neural response is obtained for a movement direction with an angle of 150 degrees."
-  },
-  {
-    "id": "B169",
-    "part": "B",
-    "text": "In reference to the previous figure: from the curve, I can conclude that this neuron is tuned to be more active in correspondence to a specific movement direction.",
-    "maxScore": 1,
-    "type": "TRUE_FALSE",
-    "options": ["True", "False"],
-    "answer": ["True"],
-    "explanation": ""
-  },
-  {
-    "id": "B170",
-    "part": "B",
-    "text": "In reference to the previous figure (question 10): the firing rate f in panel B was computed as the average of the neural response function across trials.",
-    "maxScore": 1,
-    "type": "TRUE_FALSE",
-    "options": ["True", "False"],
-    "answer": ["True"],
-    "explanation": ""
-  },
-  {
-    "id": "B171",
-    "part": "B",
-    "text": "A ROC curve describes a threshold classification between two conditions (stimuli) at different levels of coherence of the stimulation (different curves). The best curve is the one closer to the diagonal.",
-    "maxScore": 1,
-    "type": "TRUE_FALSE",
-    "options": ["True", "False"],
-    "answer": ["False"],
-    "explanation": "The diagonal corresponds to a random binary classification (chance level)."
-  },
-  {
-    "id": "B172",
-    "part": "B",
-    "text": "In reference to the previous ROC curve: the Area Under the Curve (AUC) for each level of coherence is proportional to the discriminability of the two conditions.",
-    "maxScore": 1,
-    "type": "TRUE_FALSE",
-    "options": ["True", "False"],
-    "answer": ["True"],
-    "explanation": ""
-  },
-  {
-    "id": "B173",
-    "part": "B",
-    "text": "In reference to the previous ROC curve: by considering only the true positives and false positives, and neglecting the true negatives and false negatives, we miss part of the results of the classification.",
-    "maxScore": 1,
-    "type": "TRUE_FALSE",
-    "options": ["True", "False"],
-    "answer": ["False"],
-    "explanation": "True negatives and false negatives are related to false positives and true positives, respectively. Therefore, we are not neglecting any result of the classification."
-  },
-  {
-    "id": "B174",
-    "part": "B",
-    "text": "The Spectral Matrix computed for any given pair of time series is always symmetrical.",
-    "maxScore": 1,
-    "type": "TRUE_FALSE",
-    "options": ["True", "False"],
-    "answer": ["True"],
-    "explanation": ""
-  },
-  {
-    "id": "B175",
-    "part": "B",
-    "text": "Given two time series x and y, the Granger Causality Index Gxy ∈[-∞, ∞].",
-    "maxScore": 1,
-    "type": "TRUE_FALSE",
-    "options": ["True", "False"],
-    "answer": ["False"],
-    "explanation": "The Granger Causality Index Gx→y ∈[0,∞]."
-  },
-  {
-    "id": "B176",
-    "part": "B",
-    "text": "When we have a limited amount of data, the Partial Directed Coherence (PDC) is the most accurate estimator of causality in the statistical sense.",
-    "maxScore": 1,
-    "type": "TRUE_FALSE",
-    "options": ["True", "False"],
-    "answer": ["False"],
-    "explanation": "In the event of data paucity, PDC returns inaccurate results due to the low ratio between data samples and model parameters."
-  },
-  {
-    "id": "B177",
-    "part": "B",
-    "text": "The Ordinary Coherence is defined in the time domain.",
-    "maxScore": 1,
-    "type": "TRUE_FALSE",
-    "options": ["True", "False"],
-    "answer": ["False"],
-    "explanation": "It is defined in the spectral domain."
-  },
-  {
-    "id": "B178",
-    "part": "B",
-    "text": "A multivariate approach to the estimation of brain networks can always prevent the occurrence of the common source problem.",
-    "maxScore": 1,
-    "type": "TRUE_FALSE",
-    "options": ["True", "False"],
-    "answer": ["False"],
-    "explanation": "Since there is no method able to simultaneously measure all the active sources in the brain, the problem of the common (hidden) source can be mitigated, but not entirely solved, by a multivariate approach."
-  },
-  {
-    "id": "B179",
-    "part": "B",
-    "text": "In a graph, when no path links two nodes, the distance between them is infinite.",
-    "maxScore": 1,
-    "type": "TRUE_FALSE",
-    "options": ["True", "False"],
-    "answer": ["True"],
-    "explanation": ""
-  },
-  {
-    "id": "B180",
-    "part": "B",
-    "text": "In a graph, the Density ∈[0, 1].",
-    "maxScore": 1,
-    "type": "TRUE_FALSE",
-    "options": ["True", "False"],
-    "answer": ["True"],
-    "explanation": ""
-  },
-  {
-    "id": "B181",
-    "part": "B",
-    "text": "The Global Efficiency is normalized to the number N of nodes in the graph.",
-    "maxScore": 1,
-    "type": "TRUE_FALSE",
-    "options": ["True", "False"],
-    "answer": ["False"],
-    "explanation": "The Global Efficiency is normalized to the number of edges N(N-1) for directed graphs and N(N-1)/2 for undirected graphs."
-  },
-  {
-    "id": "B182",
-    "part": "B",
-    "text": "The powerline noise affects a very narrow frequency band of the recorded signal around 50 Hz (in Europe) and odd multiples of (150 Hz, 250 Hz, ...).",
-    "maxScore": 1,
-    "type": "TRUE_FALSE",
-    "options": ["True", "False"],
-    "answer": ["True"],
-    "explanation": "TRUE"
-  },
-  {
-    "id": "B183",
-    "part": "B",
-    "text": "The RMS and the ARV of a zero-mean signal have the same value (assume that the number of samples N → ∞).",
-    "maxScore": 1,
-    "type": "TRUE_FALSE",
-    "options": ["True", "False"],
-    "answer": ["False"],
-    "explanation": "For a zero-mean signal, the RMS equals the standard deviation σ of a zero-mean signal."
-  },
-  {
-    "id": "B184",
-    "part": "B",
-    "text": "An EEG recording is said to be bipolar when it comprises exactly two channels",
-    "maxScore": 1,
-    "type": "TRUE_FALSE",
-    "options": ["True", "False"],
-    "answer": ["False"],
-    "explanation": "In bipolar EEG recordings, each channel is the difference of potential between two (adjacent) electrodes. The number of channels is not relevant"
-  },
-  {
-    "id": "B185",
-    "part": "B",
-    "text": "The Shannon's theorem states that a continuous signal can be properly sampled only if it does not contain frequency components above the sampling rate.",
-    "maxScore": 1,
-    "type": "TRUE_FALSE",
-    "options": ["True", "False"],
-    "answer": ["False"],
-    "explanation": "The signal must not contain spectral components above half the sampling rate (Nyquist frequency)"
-  },
-  {
-    "id": "B186",
-    "part": "B",
-    "text": "Movements of the subject's head produces artifacts only in the gamma band.",
-    "maxScore": 1,
-    "type": "TRUE_FALSE",
-    "options": ["True", "False"],
-    "answer": ["False"],
-    "explanation": "Movement of the subject's head may produce slow artifacts on the EEG recording, whose waveform is closely related to the timecourse of the movement"
-  },
-  {
-    "id": "B187",
-    "part": "B",
-    "text": "The frequency spectrum of white noise is flat, i.e. it has the same power at any frequency.",
-    "maxScore": 1,
-    "type": "TRUE_FALSE",
-    "options": ["True", "False"],
-    "answer": ["True"],
-    "explanation": "TRUE"
+    "explanation": "Motor imagery (imagining movements without physical execution) is a fundamental paradigm in many Brain-Computer Interfaces (BCIs). It allows users to volitionally modulate sensorimotor rhythms (e.g., mu and beta rhythms), and these modulations can be decoded to control external devices like cursors."
   }
 ]
